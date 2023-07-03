@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Gracias por tu compra</name>
+   <tag></tag>
+   <elementGuidId>05f88896-c402-4231-833d-6c2091596c4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/header/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.single-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>faa05a41-26da-47f7-ac1c-72a803fa9f4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>single-title</value>
+      <webElementGuid>0d0c9d43-e9d4-44a9-995e-5d69a2fcf779</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gracias por tu compra</value>
+      <webElementGuid>8d7d153b-319b-4030-a6af-077e61980560</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-841 page type-page status-publish hentry&quot;]/header[@class=&quot;single-head page-head no-thumbnail&quot;]/h1[@class=&quot;single-title&quot;]</value>
+      <webElementGuid>38a20707-925a-423e-b080-97e3a9289ad1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/header/h1</value>
+      <webElementGuid>b20a3273-1c7a-4908-918f-2601e1275f73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gracias por tu compra'])[1]/following::h1[1]</value>
+      <webElementGuid>dcc77772-aa41-4c1f-bebd-ced3f3794900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Portada'])[1]/following::h1[1]</value>
+      <webElementGuid>8c99a055-bf3d-4a34-bc0f-4f988e3eba0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aquí tienes tu cupón con un descuento del 10% para tu próxima compra'])[1]/preceding::h1[1]</value>
+      <webElementGuid>8e311fc8-628c-4d61-892c-943ceda92495</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart discount'])[1]/preceding::h1[1]</value>
+      <webElementGuid>25925a10-0d7d-432b-9dd3-f262dad95b4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>2be0ed00-efa1-4bf7-a38d-db6923c98444</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Gracias por tu compra' or . = 'Gracias por tu compra')]</value>
+      <webElementGuid>a0174551-176b-4d19-bde9-070d2a7a26e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

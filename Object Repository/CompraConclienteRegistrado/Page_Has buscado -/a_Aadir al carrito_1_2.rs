@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Aadir al carrito_1_2</name>
+   <tag></tag>
+   <elementGuidId>a7eb82ee-307f-4b7c-a0f9-8b495d3ca63d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/ul/li[3]/a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.product.type-product.post-563.status-publish.instock.product_cat-descuento-50.product_cat-ropa.product_cat-ropa-de-mujer.has-post-thumbnail.sale.taxable.shipping-taxable.purchasable.product-type-simple.yith-wcbm-product-has-badges > a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3cebae8d-5575-4505-ac41-7c0e99cc9520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>?add-to-cart=563</value>
+      <webElementGuid>545af90d-2f07-4493-851b-6aa053cd344c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-quantity</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>184b4795-713c-4873-9559-562dfe7f12ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button product_type_simple add_to_cart_button ajax_add_to_cart</value>
+      <webElementGuid>8132ee67-af99-45ab-b2b7-ff5f0286240b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-product_id</name>
+      <type>Main</type>
+      <value>563</value>
+      <webElementGuid>ebf30ebb-aebe-4713-9619-5bd6dc2737f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Añade “Vestido de playa” a tu carrito</value>
+      <webElementGuid>d7d3d691-b64c-4f48-871b-6e0866584630</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>nofollow</value>
+      <webElementGuid>480d9031-8d26-4f3e-9059-ef99db38a797</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Añadir al carrito</value>
+      <webElementGuid>8debd0cf-bc92-4503-be19-d7309182b914</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-9&quot;]/ul[@class=&quot;products columns-4&quot;]/li[@class=&quot;product type-product post-563 status-publish instock product_cat-descuento-50 product_cat-ropa product_cat-ropa-de-mujer has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple yith-wcbm-product-has-badges&quot;]/a[@class=&quot;button product_type_simple add_to_cart_button ajax_add_to_cart&quot;]</value>
+      <webElementGuid>4f845e2b-dd94-4848-a9d5-00723f25f956</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/ul/li[3]/a[2]</value>
+      <webElementGuid>a8a49fad-a63a-4d21-978d-c95a09ca01de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Añadir al carrito')])[3]</value>
+      <webElementGuid>39b400dd-bcb0-4d71-9581-bf9bce01a4c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[6]/following::a[1]</value>
+      <webElementGuid>cfc82124-4b9a-43a2-a2ea-8314e617bbcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[5]/following::a[1]</value>
+      <webElementGuid>cb36161b-aa17-4e46-a8cb-63114fb8f77f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¡Oferta!'])[4]/preceding::a[2]</value>
+      <webElementGuid>9373ac34-6b37-4a31-bfe8-b2f9a29d52c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gafas de hombre'])[1]/preceding::a[2]</value>
+      <webElementGuid>6fd82b89-af0a-4f98-82d2-f943c4745037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '?add-to-cart=563')]</value>
+      <webElementGuid>f5ca1d4d-c53e-482d-ae8b-2ef16eed56eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a[2]</value>
+      <webElementGuid>56207e97-260f-4c61-a1d1-fb2634bbed5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '?add-to-cart=563' and (text() = 'Añadir al carrito' or . = 'Añadir al carrito')]</value>
+      <webElementGuid>253a3bc9-d1b7-43cf-b90f-515f4c17e392</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

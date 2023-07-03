@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Precio fijo 3,00</name>
+   <tag></tag>
+   <elementGuidId>94dce862-4a1c-46cf-897a-eec6e803ab74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='shipping_method']/li/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2516376d-2752-441c-bcd3-8150223ab790</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>shipping_method_0_flat_rate2</value>
+      <webElementGuid>4e27848a-2ab2-4c5c-ba6c-8270bc5eeab5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Precio fijo: 3,00 €</value>
+      <webElementGuid>0cc39321-8b08-42fb-b4fd-40e50c014327</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shipping_method&quot;)/li[1]/label[1]</value>
+      <webElementGuid>f10aaf32-e116-472f-878e-0cd3bb053e4a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='shipping_method']/li/label</value>
+      <webElementGuid>7bdfb87a-b9a2-46c7-96e0-1145be31b5a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Envío'])[1]/following::label[1]</value>
+      <webElementGuid>1aca7169-902d-4c22-8f44-94e61c6487cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[5]/following::label[1]</value>
+      <webElementGuid>177de6c2-9ee0-4f67-8781-0889ee28e4d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Impuestos'])[1]/preceding::label[1]</value>
+      <webElementGuid>25103f27-e6b7-4e1e-bdb4-4d1e8d99075e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Precio fijo:']/parent::*</value>
+      <webElementGuid>dfb1a6e2-82c9-4f4f-adc5-1210f4ecbc75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/label</value>
+      <webElementGuid>2223e697-c3b4-48ce-9759-b46146394737</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Precio fijo: 3,00 €' or . = 'Precio fijo: 3,00 €')]</value>
+      <webElementGuid>47619017-48ef-48e5-9328-b7e4fba2af92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

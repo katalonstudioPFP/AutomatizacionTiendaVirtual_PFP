@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginDesdeCheckout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>004a6b3d-18af-4de7-9121-2161b10506ba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb30f80a-66ed-4186-9991-0055fccacd5e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>974db152-9dab-4403-9aa5-b817dc149cb7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'tejonloco0@gmail.com'</defaultValue>
+      <description></description>
+      <id>bb30f80a-66ed-4186-9991-0055fccacd5e</id>
+      <masked>false</masked>
+      <name>Usuario</name>
+   </variable>
+   <variable>
+      <defaultValue>'9o7XgbA+wJPdBtrf/4yMwA=='</defaultValue>
+      <description></description>
+      <id>974db152-9dab-4403-9aa5-b817dc149cb7</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

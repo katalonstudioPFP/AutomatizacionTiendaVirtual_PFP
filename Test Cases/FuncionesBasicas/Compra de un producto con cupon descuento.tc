@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Compra de un producto con cupon descuento</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c23d87c7-4ab2-48d5-a2fd-73a08a04a005</testCaseGuid>
+</TestCaseEntity>

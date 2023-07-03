@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Direccin de la calle</name>
+   <tag></tag>
+   <elementGuidId>b015745c-e2e6-416b-9601-b3ea20c1d3ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='billing_address_1_field']/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#billing_address_1_field > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e8af62db-365b-4226-bf96-6f0dbf05c856</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>billing_address_1</value>
+      <webElementGuid>f49a293c-7938-4dfd-858d-6d885f78b6a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dirección de la calle *</value>
+      <webElementGuid>d33b20f9-623d-49c5-8f30-5538f1c3d3da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;billing_address_1_field&quot;)/label[1]</value>
+      <webElementGuid>ca2c92b1-0cf9-47c7-a9fb-76fdb3974a71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p[@id='billing_address_1_field']/label</value>
+      <webElementGuid>5cbd4efc-7ec6-4850-8c75-77daf0ac308d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='España'])[2]/following::label[1]</value>
+      <webElementGuid>5bb71de4-ffd1-46ce-a3dc-80273bbabb31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::label[1]</value>
+      <webElementGuid>03803ab1-941b-427d-bbe6-12a962983d83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p[4]/label</value>
+      <webElementGuid>59e0aafb-9a8f-4068-808b-e7af9018bd11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Dirección de la calle *' or . = 'Dirección de la calle *')]</value>
+      <webElementGuid>e375be92-f45e-4bc4-8351-e4c83ad885a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

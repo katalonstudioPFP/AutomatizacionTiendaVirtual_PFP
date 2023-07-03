@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Nombre</name>
+   <tag></tag>
+   <elementGuidId>7f1f2edf-9fbf-44a4-940d-d5a9e488fbb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='billing_first_name_field']/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#billing_first_name_field > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>278035ba-dbd3-4422-b95e-36710a6bd867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>billing_first_name</value>
+      <webElementGuid>548354fd-6781-4986-9e1c-9ac70358cbd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nombre *</value>
+      <webElementGuid>3f01b314-15d9-4422-a640-138202fd3f28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;billing_first_name_field&quot;)/label[1]</value>
+      <webElementGuid>0798ec05-722f-4ac9-ba97-9d24a4c66aa6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p[@id='billing_first_name_field']/label</value>
+      <webElementGuid>b2cab036-91d8-4fd4-85ec-d1c3fbdf8cc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detalles de facturación'])[1]/following::label[1]</value>
+      <webElementGuid>39c0690a-178b-417f-8e34-40869ef63fee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicar tarjeta regalo'])[1]/following::label[1]</value>
+      <webElementGuid>addeaa74-447a-4bdc-b1cb-af85a80ab702</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/p/label</value>
+      <webElementGuid>abb05b51-872b-4c89-bbe3-30a8c7b9ae17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Nombre *' or . = 'Nombre *')]</value>
+      <webElementGuid>e021a419-b45e-42d4-9a69-b6af24cdc020</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

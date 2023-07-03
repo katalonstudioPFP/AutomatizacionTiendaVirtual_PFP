@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_VistaRapida</name>
+   <tag></tag>
+   <elementGuidId>602a0ba2-fb5c-49bd-b1e8-89fb2b8b50f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/ul/li/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.button.yith-wcqv-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f2d66a5f-f58a-4d91-ab06-3b7be6278a24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>0bc29f84-0950-4185-9ade-224f005dbac4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button yith-wcqv-button</value>
+      <webElementGuid>d48591ab-634f-48e7-9fa1-8cae7b035409</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-product_id</name>
+      <type>Main</type>
+      <value>565</value>
+      <webElementGuid>2a483a75-a874-4513-824d-755a74707a54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vista rápida</value>
+      <webElementGuid>c6092514-f76a-45d8-8f83-fc50196b94f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-9&quot;]/ul[@class=&quot;products columns-4&quot;]/li[@class=&quot;product type-product post-565 status-publish first instock product_cat-descuento-50 product_cat-ropa product_cat-ropa-de-hombre product_tag-conjunto has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple yith-wcbm-product-has-badges&quot;]/a[@class=&quot;button yith-wcqv-button&quot;]</value>
+      <webElementGuid>4fcd894e-4936-4d1a-a718-77e04d40fbe0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/ul/li/a[3]</value>
+      <webElementGuid>c4a599e3-121a-420d-a8a8-6fa5c6cd1911</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Vista rápida')]</value>
+      <webElementGuid>3d0132ca-167d-4fa7-83b8-3264e35d32cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Añadir al carrito'])[1]/following::a[1]</value>
+      <webElementGuid>2a8e5e34-350c-48da-83f0-d7b6da4b658b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[2]/following::a[2]</value>
+      <webElementGuid>01f35def-9d49-44cc-b56c-af206f2f4de2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¡Oferta!'])[2]/preceding::a[1]</value>
+      <webElementGuid>829b31f7-0c17-4c4e-a170-5612ccefbd22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vestido de noche'])[1]/preceding::a[1]</value>
+      <webElementGuid>48576836-7aa2-415a-b043-85563075e3dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Vista rápida']/parent::*</value>
+      <webElementGuid>a898ccc8-b2d6-47b2-8e6a-1ea2ff926714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>c554b664-18e9-4cc7-9c7e-13f396bdd8d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>847d580e-bbaa-4f7b-af6c-3d3d76fcaad1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Vista rápida' or . = 'Vista rápida')]</value>
+      <webElementGuid>82176e8c-1e4b-4fc9-b6b4-afdead55471d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('CompraConclienteRegistrado/Page_Inicio -/MiCuenta'))
+WebUI.click(findTestObject('Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/MiCuenta'))
 
-WebUI.click(findTestObject('CompraConclienteRegistrado/MiCuenta/Salir'))
+WebUI.click(findTestObject('Compra de un grupo de productos con descuentos con cliente registrado/MiCuenta/Salir'))
 
 WebUI.closeBrowser()
 

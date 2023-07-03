@@ -17,29 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/a_Haz clic aqu para acceder'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/label_Nombre de usuario o correo electrnico'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico'), 
     'Nombre de usuario o correo electrónico *')
 
-WebUI.verifyElementText(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/label_Contrasea'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea'), 
     'Contraseña *')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__username'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__username'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__password'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__password'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/button_Acceder'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/button_Acceder'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/label_Recurdame'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/a_Olvidaste la contrasea'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea'), 
     '¿Olvidaste la contraseña?')
 
-WebUI.setText(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__username'), Usuario)
+WebUI.setText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__username'), Usuario)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__password'), Password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__password'), Password)
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/button_Acceder'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/button_Acceder'))
 

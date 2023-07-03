@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Inicio -/select_Todas las categorasAccesorios (12)De_fc73d7'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/select_Todas las categorasAccesorios (12)De_fc73d7'), 
     'descuento-50', true)
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Inicio -/i_Ropa de hombre_la la-search'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/i_Ropa de hombre_la la-search'))
 

@@ -17,38 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('CompraConclienteRegistrado/Page_Checkout -/input__billing_first_name'), 2)
+WebUI.scrollToElement(findTestObject('Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_first_name'), 2)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__billing_first_name'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_first_name'), 
     'value', Nombre, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__billing_last_name'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_last_name'), 
     'value', Apellido, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/span_Espaa'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Espaa'), 
     'title', Pais, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__billing_address_1'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_address_1'), 
     'value', Direccion, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__billing_address_2'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_address_2'), 
     'value', Piso, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__billing_city'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_city'), 
     'value', Ciudad, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/span_Madrid'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Madrid'), 
     'title', Comunidad, 0)
 
-WebUI.scrollToElement(findTestObject('CompraConclienteRegistrado/Page_Checkout -/input__billing_postcode'), 2)
+WebUI.scrollToElement(findTestObject('Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_postcode'), 2)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__billing_postcode'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_postcode'), 
     'value', CP, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input__billing_email'), 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input__billing_email'), 
     'value', Email, 0)
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83'))
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6'))
 

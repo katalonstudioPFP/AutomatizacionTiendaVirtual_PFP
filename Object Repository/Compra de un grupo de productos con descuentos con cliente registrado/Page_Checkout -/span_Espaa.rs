@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Madrid</name>
+   <name>span_Espaa</name>
    <tag></tag>
-   <elementGuidId>565d6d18-06d7-4c85-ba38-cc9e8be3867b</elementGuidId>
+   <elementGuidId>11bbabfc-5938-43fd-8afa-72a763c93136</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#select2-billing_state-container</value>
+         <key>XPATH</key>
+         <value>//span[contains(@id,'select2-billing_country-container')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(@id,'select2-billing_state-container')]</value>
+         <key>CSS</key>
+         <value>#select2-billing_country-container</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d257934b-fa82-4c9b-a6b4-b32132fa507c</webElementGuid>
+      <webElementGuid>ff621ae1-f8ad-4665-bca6-d3288bfffd2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>select2-selection__rendered</value>
-      <webElementGuid>08af27b2-14c7-4974-8f4c-21d3ae606536</webElementGuid>
+      <webElementGuid>2e847932-d742-40e4-83b3-a9e03820a734</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-billing_state-container</value>
-      <webElementGuid>6f3a9881-c15a-490b-bb28-a6e0b6f52e52</webElementGuid>
+      <value>select2-billing_country-container</value>
+      <webElementGuid>ebc14d22-2637-4f36-8758-87583cf5cf58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>be3c1f5f-fa26-4b75-a725-00ab972457e2</webElementGuid>
+      <webElementGuid>db5d7e30-98e7-48f1-8636-273d5643e939</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,78 +54,78 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2fed01da-1d1d-429e-965a-6b79a63d0a0c</webElementGuid>
+      <webElementGuid>fc0e6d62-2c1e-491e-9755-e70df19c12d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Madrid</value>
-      <webElementGuid>60b0d399-3f55-430c-840c-84717a7eb715</webElementGuid>
+      <value>España</value>
+      <webElementGuid>0cf148e9-980f-48e9-a348-e0ae9a03c642</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Madrid</value>
-      <webElementGuid>6bd5159f-e85e-4137-9856-3b0a354530a2</webElementGuid>
+      <value>España</value>
+      <webElementGuid>04129a61-b930-4303-b202-694eb8ea5b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-billing_state-container&quot;)</value>
-      <webElementGuid>7d9ac9ca-6b7a-415d-8ee5-efb4e1020096</webElementGuid>
+      <value>id(&quot;select2-billing_country-container&quot;)</value>
+      <webElementGuid>df29422a-b00a-4efa-8296-a04c3ea02b1e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='select2-billing_state-container']</value>
-      <webElementGuid>f2325279-8eaf-4a3c-aee9-bd221ebaffab</webElementGuid>
+      <value>//span[@id='select2-billing_country-container']</value>
+      <webElementGuid>cd94f31c-7705-44e5-bf1f-51608ac0577a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//p[@id='billing_state_field']/span/span/span/span/span</value>
-      <webElementGuid>72c052e8-87be-4e72-8864-0b2d8ce2c204</webElementGuid>
+      <value>//p[@id='billing_country_field']/span/span/span/span/span</value>
+      <webElementGuid>6a9289bb-4742-4175-9019-9cd5c461afec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::span[5]</value>
-      <webElementGuid>7e70c06a-8970-465b-8373-a5030d02abd6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::span[5]</value>
+      <webElementGuid>b81197b7-78c4-4017-bbd1-19c550e486b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::span[3]</value>
-      <webElementGuid>26456ce6-73f4-4de7-b185-729bb22d702f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/preceding::span[3]</value>
+      <webElementGuid>c1ad872b-f02c-4640-a02e-8a66173e2da8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[7]/span/span/span/span/span</value>
-      <webElementGuid>07c519fb-9d13-4140-b807-745ffecd09fb</webElementGuid>
+      <value>//span/span/span/span/span</value>
+      <webElementGuid>ef1f40a6-7803-4a33-b3ca-b94440f5ac59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[@id = 'select2-billing_state-container' and @title = 'Madrid' and (text() = 'Madrid' or . = 'Madrid')]</value>
-      <webElementGuid>a013ef41-e775-4c1a-ae1a-d6dd6f47f452</webElementGuid>
+      <value>//span[@id = 'select2-billing_country-container' and @title = 'España' and (text() = 'España' or . = 'España')]</value>
+      <webElementGuid>982b95a4-599c-4673-9e0b-5b2ec7b466ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

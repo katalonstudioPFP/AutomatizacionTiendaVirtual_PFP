@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__billing_address_2</name>
+   <name>input__billing_address_1</name>
    <tag></tag>
-   <elementGuidId>35b93d26-8e47-4bd7-b292-b25798918de0</elementGuidId>
+   <elementGuidId>ba1180cb-a3ba-4335-8752-60633f94b135</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#billing_address_2</value>
+         <key>XPATH</key>
+         <value>//input[contains(@name,'billing_address_1')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[contains(@name,'billing_address_2')]</value>
+         <key>CSS</key>
+         <value>#billing_address_1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d5a56997-e30d-4ec7-b561-e29b5a3b6e9e</webElementGuid>
+      <webElementGuid>eab8ae95-d4b8-44cc-bbcb-e794f42a13e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>7c5f2e75-7bb6-4c56-973d-0926457bf07b</webElementGuid>
+      <webElementGuid>2107ef70-a194-4a81-a0e3-78abb61f3a8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,78 +38,78 @@
       <name>class</name>
       <type>Main</type>
       <value>input-text </value>
-      <webElementGuid>67aae993-9213-42ef-b131-fd847d2ed289</webElementGuid>
+      <webElementGuid>79050203-f7af-47f4-9eb2-f561feb74595</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>billing_address_2</value>
-      <webElementGuid>e7bf412f-b5f6-49eb-a0b7-273fcca1ff21</webElementGuid>
+      <value>billing_address_1</value>
+      <webElementGuid>8d4b46ac-cc9d-4a04-a4e2-a644fafd4145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>billing_address_2</value>
-      <webElementGuid>7974d4bf-67d1-4fb6-b603-dbf886a582ef</webElementGuid>
+      <value>billing_address_1</value>
+      <webElementGuid>b0c631dc-78f2-42ac-9793-b57d1e84e9dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Apartamento, habitación, etc. (opcional)</value>
-      <webElementGuid>cd618e1e-161b-41d7-a419-10c304a873c4</webElementGuid>
+      <value>Número de la casa y nombre de la calle</value>
+      <webElementGuid>2d6624ea-b56c-48d9-b5f5-e9b1aea8e3f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>address-line2</value>
-      <webElementGuid>e7793403-b452-4f98-8538-07faa19757d3</webElementGuid>
+      <value>address-line1</value>
+      <webElementGuid>37484d8d-d28f-49e4-b334-23251ce7e373</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billing_address_2&quot;)</value>
-      <webElementGuid>f78fbbfe-09d7-4572-b43e-fb066898073f</webElementGuid>
+      <value>id(&quot;billing_address_1&quot;)</value>
+      <webElementGuid>c1fce5a7-a0af-485a-8665-680785630a1e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='billing_address_2']</value>
-      <webElementGuid>b2ce7bb9-87ba-4cd6-9bf3-95e8ff91f6f5</webElementGuid>
+      <value>//input[@id='billing_address_1']</value>
+      <webElementGuid>349c2d76-cb8d-4434-af53-80f6bedded39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//p[@id='billing_address_2_field']/span/input</value>
-      <webElementGuid>578b8633-0045-4723-a08e-8cf96d02216b</webElementGuid>
+      <value>//p[@id='billing_address_1_field']/span/input</value>
+      <webElementGuid>d1bc709a-3008-43b9-a215-f219ea4a1d38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[5]/span/input</value>
-      <webElementGuid>ed1ab569-13c5-43f6-a929-4c92212b5f34</webElementGuid>
+      <value>//p[4]/span/input</value>
+      <webElementGuid>f643879d-e4b9-42be-81ca-70bd58bff09f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'billing_address_2' and @id = 'billing_address_2' and @placeholder = 'Apartamento, habitación, etc. (opcional)']</value>
-      <webElementGuid>b03acbec-2f07-428c-8a88-a7f979c958f7</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'billing_address_1' and @id = 'billing_address_1' and @placeholder = 'Número de la casa y nombre de la calle']</value>
+      <webElementGuid>57940fe3-909a-4930-9aa2-bee445f6f615</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

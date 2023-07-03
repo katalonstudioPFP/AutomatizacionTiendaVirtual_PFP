@@ -17,41 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/span_Oferta'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/span_Oferta'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/h2_Pantaln y camisa de hombre'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Pantaln y camisa de hombre'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/h2_Vestido de noche'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de noche'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/h2_Vestido de playa'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de playa'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/h2_Gafas de hombre'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Gafas de hombre'))
 
-WebUI.scrollToElement(findTestObject('CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito'), 2)
+WebUI.scrollToElement(findTestObject('Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito'), 2)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito_1'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito_1_2'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito_1_2_3'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Vista rpida'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Vista rpida'))
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Ver carrito'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito'))
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito_1'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Ver carrito'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito'))
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito_1_2'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Ver carrito'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito'))
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Aadir al carrito_1_2_3'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Has buscado -/a_Ver carrito'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito'))
 

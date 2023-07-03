@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__billing_email</name>
+   <name>input__billing_first_name</name>
    <tag></tag>
-   <elementGuidId>971d67eb-0c6a-443f-a222-1beb54316399</elementGuidId>
+   <elementGuidId>fcdd52ca-b74f-4cdf-b857-c5f4ddf3c0c8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#billing_email</value>
+         <key>XPATH</key>
+         <value>//input[contains(@name,'billing_first_name')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@type='email'][contains(@id,'email')]</value>
+         <key>CSS</key>
+         <value>#billing_first_name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>80abf0bb-0ac5-4b86-b1e2-2d31b8bf888f</webElementGuid>
+      <webElementGuid>fc6bc250-811a-41af-bb56-92d6d06599d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>8380e3ac-8879-470a-a8bb-59dcf90c36aa</webElementGuid>
+      <value>text</value>
+      <webElementGuid>3211ad77-c922-45da-9b66-0bb6af96abb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,70 +38,70 @@
       <name>class</name>
       <type>Main</type>
       <value>input-text </value>
-      <webElementGuid>30402121-05a0-48ba-ae8d-c255cadeb7c2</webElementGuid>
+      <webElementGuid>2a58c41e-a67c-49d7-95ee-322b1b48200b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>billing_email</value>
-      <webElementGuid>27805c06-1cd8-4ce2-a092-d249c163f099</webElementGuid>
+      <value>billing_first_name</value>
+      <webElementGuid>fec55272-fad3-4f01-aad0-00b1fbf94693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>billing_email</value>
-      <webElementGuid>b5aa508f-95a9-4572-9094-9fc5a72880e3</webElementGuid>
+      <value>billing_first_name</value>
+      <webElementGuid>d1efd3ae-4b31-49ce-a7c8-fac4b51d9257</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>email username</value>
-      <webElementGuid>7a5cb47c-bec4-4223-b46d-e19df4689967</webElementGuid>
+      <value>given-name</value>
+      <webElementGuid>6582136e-05f7-40e1-b380-b6e882e4870d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billing_email&quot;)</value>
-      <webElementGuid>a92fa901-c992-4465-a188-97ae617158b0</webElementGuid>
+      <value>id(&quot;billing_first_name&quot;)</value>
+      <webElementGuid>79bbf722-eaf8-45c4-aaf9-dccab9ef60e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='billing_email']</value>
-      <webElementGuid>11d14805-3406-4ac2-b723-185d929b01ca</webElementGuid>
+      <value>//input[@id='billing_first_name']</value>
+      <webElementGuid>2d4cd0bd-cc12-4966-afbe-dba32e9a36dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//p[@id='billing_email_field']/span/input</value>
-      <webElementGuid>5fc5fc6f-4fe1-4e93-905c-ab4a766d97ab</webElementGuid>
+      <value>//p[@id='billing_first_name_field']/span/input</value>
+      <webElementGuid>879b6678-c31e-4515-b7d3-c8ea88168dc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[9]/span/input</value>
-      <webElementGuid>1a1a4cd1-19a5-41e7-8646-d99e1f6718fc</webElementGuid>
+      <value>//div/p/span/input</value>
+      <webElementGuid>0943ae25-4bb7-4716-8d4c-26e77233a747</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @name = 'billing_email' and @id = 'billing_email']</value>
-      <webElementGuid>862d0376-446c-424f-b34f-b77373eb6444</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'billing_first_name' and @id = 'billing_first_name']</value>
+      <webElementGuid>b9f2d5b9-db07-41de-bb94-c25f8f22b938</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

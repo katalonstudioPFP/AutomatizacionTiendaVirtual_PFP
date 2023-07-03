@@ -6,12 +6,12 @@
    <elementGuidId>634df89a-5f82-40f9-bce1-698ca4f0d524</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#billing_postcode</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[contains(@name,'billing_postcode')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#billing_postcode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

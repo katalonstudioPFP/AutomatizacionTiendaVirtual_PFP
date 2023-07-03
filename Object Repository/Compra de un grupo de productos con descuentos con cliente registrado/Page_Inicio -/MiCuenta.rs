@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TextProductosMejorValorados</name>
+   <name>MiCuenta</name>
    <tag></tag>
-   <elementGuidId>3fb00fa6-eda8-4218-b7bb-f0304167f370</elementGuidId>
+   <elementGuidId>189257fa-9577-4c73-8fc9-c3b4a9a8410e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h3[contains(.,'Productos mejor valorados')]</value>
+         <value>//a[@title='Mi Cuenta'][contains(.,'Mi Cuenta')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

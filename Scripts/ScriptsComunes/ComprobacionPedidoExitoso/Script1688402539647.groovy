@@ -17,18 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Checkout -/button_Realizar el pedido'))
+WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/button_Realizar el pedido'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Gracias por tu compra -/h1_Gracias por tu compra'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra'), 
     'Gracias por tu compra')
 
-WebUI.verifyElementText(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0'), 
     'Te agradecemos la compra en esta tienda. Esperamos que compres mas veces en esta tienda por eso debajo de la imagen tienes un cupón descuento para que lo utilices en tu próxima compra')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281'), 
     'Aquí tienes tu cupón con un descuento del 10% para tu próxima compra')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/CompraConclienteRegistrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i'))
 

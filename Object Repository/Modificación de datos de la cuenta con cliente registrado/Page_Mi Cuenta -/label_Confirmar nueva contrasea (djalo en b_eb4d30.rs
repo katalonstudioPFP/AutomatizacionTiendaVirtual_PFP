@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Confirmar nueva contrasea (djalo en b_eb4d30</name>
+   <tag></tag>
+   <elementGuidId>14f837d5-fa51-4767-a4eb-bb0feec52b12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/div/div/div/div/form/fieldset/p[3]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>f052c717-5a62-4329-b7ed-9b5d8c579c2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>password_2</value>
+      <webElementGuid>284d8fba-586b-4908-87e3-f4f85696bed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirmar nueva contraseña (déjalo en blanco para no cambiarla)</value>
+      <webElementGuid>1f407f24-b429-476b-aee0-cb54897bc248</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-464 page type-page status-publish hentry&quot;]/div[@class=&quot;main-content-page single-content&quot;]/div[@class=&quot;single-entry-summary&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;woocommerce-MyAccount-content&quot;]/form[@class=&quot;woocommerce-EditAccountForm edit-account&quot;]/fieldset[1]/p[@class=&quot;woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide&quot;]/label[1]</value>
+      <webElementGuid>6e756516-fc11-4b22-93ab-6eb967db1573</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/div/div/div/div/form/fieldset/p[3]/label</value>
+      <webElementGuid>656f9dc2-68b9-4968-adfc-1685e0075827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nueva contraseña (déjalo en blanco para no cambiarla)'])[1]/following::label[1]</value>
+      <webElementGuid>5f284dcf-861b-462c-ac22-2cf465e2e9e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contraseña actual (déjalo en blanco para no cambiarla)'])[1]/following::label[2]</value>
+      <webElementGuid>7a1b2f1a-a818-4eaa-8cfa-90be18452ba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suscríbete a nuestro boletín'])[1]/preceding::label[1]</value>
+      <webElementGuid>d05edbb7-73a6-42e5-bb46-a8bf1295155b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Darte de baja de nuestro boletín'])[1]/preceding::label[2]</value>
+      <webElementGuid>c4bc0f94-37da-4ee7-97bd-e4ec610749b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirmar nueva contraseña (déjalo en blanco para no cambiarla)']/parent::*</value>
+      <webElementGuid>4d8d926b-a712-4b9b-8621-8b15da35738a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset/p[3]/label</value>
+      <webElementGuid>bf110cf9-ae6a-48d8-bd71-2ae7c405aa7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Confirmar nueva contraseña (déjalo en blanco para no cambiarla)' or . = 'Confirmar nueva contraseña (déjalo en blanco para no cambiarla)')]</value>
+      <webElementGuid>f5dc15bf-e4b4-4610-8776-b4e5189c2013</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

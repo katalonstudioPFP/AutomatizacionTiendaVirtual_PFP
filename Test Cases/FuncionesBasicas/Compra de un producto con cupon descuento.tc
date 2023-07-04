@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c23d87c7-4ab2-48d5-a2fd-73a08a04a005</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4afae3da-7f6c-4b7e-8d88-ef7a9d645eda</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Gafas de hombre'</defaultValue>
+      <description></description>
+      <id>4afae3da-7f6c-4b7e-8d88-ef7a9d645eda</id>
+      <masked>false</masked>
+      <name>NombreProducto</name>
+   </variable>
 </TestCaseEntity>

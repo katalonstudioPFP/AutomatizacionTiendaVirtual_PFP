@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_editar tu contraseña y los detalles de tu cuenta</name>
+   <tag></tag>
+   <elementGuidId>435ff166-276d-48c4-a670-c165449b7e47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/div/div/div/div/p[2]/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>67da2771-d1e0-430f-bfb0-a1b62aa12764</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://pruebasqafenix.com/mi-cuenta/editar-cuenta/</value>
+      <webElementGuid>0e3edcae-8880-428b-9a31-ff5df3dad8af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>editar tu contraseña y los detalles de tu cuenta</value>
+      <webElementGuid>960458d3-90a8-42a0-8143-70ad53e8414a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-464 page type-page status-publish hentry&quot;]/div[@class=&quot;main-content-page single-content&quot;]/div[@class=&quot;single-entry-summary&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;woocommerce-MyAccount-content&quot;]/p[2]/a[3]</value>
+      <webElementGuid>54bdba58-3965-4800-86cd-f9e187f610db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/div/div/div/div/p[2]/a[3]</value>
+      <webElementGuid>d6b42e6c-8c70-49fa-9433-9d2dd1594012</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'editar tu contraseña y los detalles de tu cuenta')]</value>
+      <webElementGuid>7d90964f-e7d4-4cc3-a18f-ae6a4b8ea633</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='direcciones de envío y facturación'])[1]/following::a[1]</value>
+      <webElementGuid>00ed3f24-5896-4092-852d-355fb94e307c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pedidos recientes'])[1]/following::a[2]</value>
+      <webElementGuid>c7553a8a-1ead-4f14-8972-33cd3f5c4a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suscríbete al blog por correo electrónico'])[1]/preceding::a[1]</value>
+      <webElementGuid>df11f7f0-6e62-4ee3-b679-1cb6fb5aa1f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dirección de correo electrónico'])[1]/preceding::a[1]</value>
+      <webElementGuid>663cf4ef-7c50-484e-9107-e98895ff9ae9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='editar tu contraseña y los detalles de tu cuenta']/parent::*</value>
+      <webElementGuid>57ec61f7-9951-4234-bd29-adab52df4e14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://pruebasqafenix.com/mi-cuenta/editar-cuenta/')])[2]</value>
+      <webElementGuid>d557c084-77a5-45a4-9bfb-ee624191ecfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>e1ba685e-ce8a-46f9-b484-64f344c00ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://pruebasqafenix.com/mi-cuenta/editar-cuenta/' and (text() = 'editar tu contraseña y los detalles de tu cuenta' or . = 'editar tu contraseña y los detalles de tu cuenta')]</value>
+      <webElementGuid>b6fe57fa-1c02-4e9f-8c8a-89fa8f97822f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

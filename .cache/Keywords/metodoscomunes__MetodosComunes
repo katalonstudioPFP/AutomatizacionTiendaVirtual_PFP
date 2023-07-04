@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "CC8B10A20A3A607E3473227250C1DB4F",
+  "keywordClasses": [
+    {
+      "name": "metodoscomunes.MetodosComunes",
+      "keywordMethods": [
+        {
+          "name": "ClickAProducto",
+          "parameters": [
+            {
+              "name": "NombreProducto",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

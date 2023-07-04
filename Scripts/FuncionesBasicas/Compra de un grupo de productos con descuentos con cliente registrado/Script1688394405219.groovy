@@ -34,7 +34,7 @@ WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionDatosDeEnvioDeClient
         , ('Pais') : 'España', ('Direccion') : 'calle doctor esquerdo 169', ('Piso') : '2 c', ('Ciudad') : 'madrid', ('Comunidad') : 'Madrid'
         , ('CP') : '28007', ('Email') : 'tejonloco0@gmail.com'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionPedidoExitoso'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

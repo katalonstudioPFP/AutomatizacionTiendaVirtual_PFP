@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ComprobarComponentesDeMiCuenta</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f86185e-6b1a-4b5d-83f1-6dc1e2522d69</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a244ce83-796d-4564-9245-c715b979865e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sonia'</defaultValue>
+      <description></description>
+      <id>a244ce83-796d-4564-9245-c715b979865e</id>
+      <masked>false</masked>
+      <name>NombreVisible</name>
+   </variable>
+</TestCaseEntity>

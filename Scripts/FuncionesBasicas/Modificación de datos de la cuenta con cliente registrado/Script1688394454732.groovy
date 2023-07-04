@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('ScriptsComunes/AccesoATienda'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/Loguearse'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : 'Isabela_2023_'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarComponentesDeMiCuenta'), [('NombreVisible') : 'Sonia'], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/DarseDeBajaBoletin_Y_CambiarNombreVisible'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarCuponesCliente'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/CerrarSesion'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+

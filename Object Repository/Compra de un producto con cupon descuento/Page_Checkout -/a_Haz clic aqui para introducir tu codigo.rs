@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Haz clic aqui para introducir tu codigo</name>
+   <tag></tag>
+   <elementGuidId>aa374e98-46d6-4292-acc0-7bd5f0303e4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/div/div/div/div/div/div[2]/div/div/div/div/div[3]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.showcoupon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d501412e-f1db-4953-bf82-5bd0dc667457</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>5f0f72ed-637f-4e53-b26c-c73fc428c1d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>showcoupon</value>
+      <webElementGuid>b08f6292-8b92-4309-b681-062a40007468</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Haz clic aquí para introducir tu código</value>
+      <webElementGuid>34c430f7-5650-4591-8597-0a63fc0c908b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-385 page type-page status-publish hentry&quot;]/div[@class=&quot;main-content-page single-content&quot;]/div[@class=&quot;single-entry-summary&quot;]/div[@class=&quot;elementor elementor-385&quot;]/div[@class=&quot;elementor-element elementor-element-aa37ebf e-flex e-con-boxed e-con&quot;]/div[@class=&quot;e-con-inner&quot;]/div[@class=&quot;elementor-element elementor-element-8c34f61 e-con-full e-flex e-con&quot;]/div[@class=&quot;elementor-element elementor-element-b2a24b6 elementor-widget elementor-widget-shortcode&quot;]/div[@class=&quot;elementor-widget-container&quot;]/div[@class=&quot;elementor-shortcode&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;woocommerce-form-coupon-toggle&quot;]/div[@class=&quot;woocommerce-info&quot;]/a[@class=&quot;showcoupon&quot;]</value>
+      <webElementGuid>ab43e191-cf52-42a6-8890-7f39e8328711</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/div/div/div/div/div/div[2]/div/div/div/div/div[3]/div/a</value>
+      <webElementGuid>bc5446eb-ab43-4054-a266-ecd74672cdae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Haz clic aquí para introducir tu código')]</value>
+      <webElementGuid>29ff9796-aab7-4809-b459-17f3d383650d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Olvidaste la contraseña?'])[1]/following::a[1]</value>
+      <webElementGuid>546149ad-5a9d-40c9-a95d-c7869115a237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cupón:'])[1]/preceding::a[1]</value>
+      <webElementGuid>ac1a564f-6c54-410c-a1de-3514d256795e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicar cupón'])[1]/preceding::a[1]</value>
+      <webElementGuid>d4ceaf3e-0663-4bce-b134-6dec8b05b12f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Haz clic aquí para introducir tu código']/parent::*</value>
+      <webElementGuid>3d093249-bc3f-40e9-8ec3-92a664735da6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[6]</value>
+      <webElementGuid>00312df3-ece1-42cb-a6ac-2e0200d42c0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[3]/div/a</value>
+      <webElementGuid>ce6d1511-b437-41e5-81ed-5bdb6fa30220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Haz clic aquí para introducir tu código' or . = 'Haz clic aquí para introducir tu código')]</value>
+      <webElementGuid>683e3999-1ec5-4f8a-a095-1b7c4c6486d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -37,7 +37,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo 
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Vista rpida'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_VistaRapida'))
 
 WebUI.click(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito'))
 

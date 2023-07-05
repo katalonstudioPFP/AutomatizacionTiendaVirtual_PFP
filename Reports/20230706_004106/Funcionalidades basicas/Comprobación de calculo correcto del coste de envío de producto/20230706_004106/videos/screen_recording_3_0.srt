@@ -1,0 +1,52 @@
+1
+00:00:00,283 --> 00:00:00,684
+1. verifyElementVisible(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Producto"))
+
+2
+00:00:00,685 --> 00:00:01,015
+5. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Producto"), "Producto")
+
+3
+00:00:01,016 --> 00:00:01,358
+9. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Precio"), "Precio")
+
+4
+00:00:01,360 --> 00:00:01,722
+13. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Cantidad"), "Cantidad")
+
+5
+00:00:01,725 --> 00:00:02,111
+17. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Subtotal"), "Subtotal")
+
+6
+00:00:02,113 --> 00:00:02,556
+21. verifyElementVisible(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/td_"))
+
+7
+00:00:02,559 --> 00:00:02,991
+25. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/td_Camiseta para mujer"), "Camiseta para mujer")
+
+8
+00:00:02,993 --> 00:00:03,385
+29. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/PrecioProducto"), "18,90 €")
+
+9
+00:00:03,386 --> 00:00:03,780
+33. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/input_Camiseta para mujer cantidad_cartf0e5_48d88e"), "Camiseta para mujer")
+
+10
+00:00:03,781 --> 00:00:04,196
+37. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/PrecioProducto"), "18,90 €")
+
+11
+00:00:04,197 --> 00:00:04,598
+41. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/h2_Total del carrito"), "Total del carrito")
+
+12
+00:00:04,600 --> 00:00:05,006
+45. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Subtotal"), "Subtotal")
+
+13
+00:00:05,007 --> 00:00:05,382
+49. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/Total"), "18,90 €")
+

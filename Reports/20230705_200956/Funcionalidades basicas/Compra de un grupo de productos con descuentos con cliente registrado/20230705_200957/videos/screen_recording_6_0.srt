@@ -1,0 +1,48 @@
+1
+00:00:00,509 --> 00:00:00,952
+1. click(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder"))
+
+2
+00:00:00,954 --> 00:00:03,005
+5. delay(2, CONTINUE_ON_FAILURE)
+
+3
+00:00:03,007 --> 00:00:03,369
+9. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico"), "Nombre de usuario o correo electrónico *")
+
+4
+00:00:03,370 --> 00:00:03,748
+13. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea"), "Contraseña *")
+
+5
+00:00:03,750 --> 00:00:04,121
+17. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario"))
+
+6
+00:00:04,122 --> 00:00:04,548
+21. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password"), CONTINUE_ON_FAILURE)
+
+7
+00:00:04,549 --> 00:00:04,924
+25. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder"))
+
+8
+00:00:04,926 --> 00:00:05,326
+29. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame"))
+
+9
+00:00:05,327 --> 00:00:05,697
+33. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea"), "¿Olvidaste la contraseña?")
+
+10
+00:00:05,699 --> 00:00:06,478
+37. setText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario"), Usuario)
+
+11
+00:00:06,479 --> 00:00:07,269
+41. setText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password"), Password)
+
+12
+00:00:07,270 --> 00:00:13,092
+45. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder"))
+

@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Compra de un grupo de productos con descuentos con cliente registrado" time="118.058" tests="8" failures="1" errors="0">
+   <testsuite name="Compra de un grupo de productos con descuentos con cliente registrado" tests="8" failures="1" errors="0" time="118.058" skipped="0" timestamp="2023-07-05 20:21:07" hostname="aleja - 192.168.1.13" id="Test Suites/Funcionalidades basicas/Compra de un grupo de productos con descuentos con cliente registrado">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aleja\\git\\backup\\AutomatizacionTiendaVirtual_PFP\\Reports\\20230705_202102\\Funcionalidades basicas\\Compra de un grupo de productos con descuentos con cliente registrado\\20230705_202102"/>
+         <property name="logFiles" value="C:\\Users\\aleja\\git\\backup\\AutomatizacionTiendaVirtual_PFP\\Reports\\20230705_202102\\Funcionalidades basicas\\Compra de un grupo de productos con descuentos con cliente registrado\\20230705_202102\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\aleja\\git\\backup\\AutomatizacionTiendaVirtual_PFP\\Reports\\20230705_202102\\Funcionalidades basicas\\Compra de un grupo de productos con descuentos con cliente registrado\\20230705_202102\\1688581366717.png"/>
+         <property name="hostName" value="aleja - 192.168.1.13"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="0d7b739351b46904c63d7f4da05bbe73"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ScriptsComunes/AccesoATienda" time="9.71" classname="Test Cases/ScriptsComunes/AccesoATienda" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:21:08 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/AccesoATienda: Test Cases/ScriptsComunes/AccesoATienda
+
+2023-07-05 20:21:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 20:21:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 20:21:08 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCert', 'true']
+
+2023-07-05 20:21:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 20:21:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 20:21:11 - [TEST_STEP][PASSED] - navigateToUrl("https://pruebasqafenix.com/"): Navigate to 'https://pruebasqafenix.com/' successfully
+
+2023-07-05 20:21:13 - [MESSAGE][PASSED] - Navigate to 'https://pruebasqafenix.com/' successfully
+
+2023-07-05 20:21:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 20:21:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 20:21:13 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-07-05 20:21:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-07-05 20:21:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies' is clicked on
+
+2023-07-05 20:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies' is clicked on
+
+2023-07-05 20:21:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/AccesoATienda' .
+
+2023-07-05 20:21:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/AccesoATienda' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento" time="6.693" classname="Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:21:17 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento: Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento
+
+2023-07-05 20:21:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/DesplegableCategorias"), "descuento-50", true): All options with value 'descuento-50' are selected in object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/DesplegableCategorias'  using regular expression
+
+2023-07-05 20:21:19 - [MESSAGE][PASSED] - All options with value 'descuento-50' are selected in object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/DesplegableCategorias'  using regular expression
+
+2023-07-05 20:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/BotonBuscar")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/BotonBuscar' is clicked on
+
+2023-07-05 20:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/BotonBuscar' is clicked on
+
+2023-07-05 20:21:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento' .
+
+2023-07-05 20:21:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento" time="13.436" classname="Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:21:24 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento: Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento
+
+2023-07-05 20:21:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/span_Oferta")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/span_Oferta' is visible
+
+2023-07-05 20:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/span_Oferta' is visible
+
+2023-07-05 20:21:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Pantaln y camisa de hombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Pantaln y camisa de hombre' is visible
+
+2023-07-05 20:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Pantaln y camisa de hombre' is visible
+
+2023-07-05 20:21:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de noche")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de noche' is visible
+
+2023-07-05 20:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de noche' is visible
+
+2023-07-05 20:21:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de playa")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de playa' is visible
+
+2023-07-05 20:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de playa' is visible
+
+2023-07-05 20:21:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Gafas de hombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Gafas de hombre' is visible
+
+2023-07-05 20:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Gafas de hombre' is visible
+
+2023-07-05 20:21:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' successfully
+
+2023-07-05 20:21:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' successfully
+
+2023-07-05 20:21:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' is visible
+
+2023-07-05 20:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' is visible
+
+2023-07-05 20:21:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1' is visible
+
+2023-07-05 20:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1' is visible
+
+2023-07-05 20:21:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2' is visible
+
+2023-07-05 20:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2' is visible
+
+2023-07-05 20:21:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3' is visible
+
+2023-07-05 20:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3' is visible
+
+2023-07-05 20:21:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_VistaRapida")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_VistaRapida' is visible
+
+2023-07-05 20:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_VistaRapida' is visible
+
+2023-07-05 20:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' is clicked on
+
+2023-07-05 20:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' is clicked on
+
+2023-07-05 20:21:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 20:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 20:21:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1' is clicked on
+
+2023-07-05 20:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1' is clicked on
+
+2023-07-05 20:21:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 20:21:32 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 20:21:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2' is clicked on
+
+2023-07-05 20:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2' is clicked on
+
+2023-07-05 20:21:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 20:21:34 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 20:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3' is clicked on
+
+2023-07-05 20:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3' is clicked on
+
+2023-07-05 20:21:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 20:21:35 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 20:21:37 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento' .
+
+2023-07-05 20:21:37 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos" time="21.979" classname="Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:21:37 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos: Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos
+
+2023-07-05 20:21:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is clicked on
+
+2023-07-05 20:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is clicked on
+
+2023-07-05 20:21:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Carrito"), "Carrito"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Carrito' are matched.
+
+2023-07-05 20:21:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Carrito' are matched.
+
+2023-07-05 20:21:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TienesTarjetaRegalo")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TienesTarjetaRegalo' is visible
+
+2023-07-05 20:21:42 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TienesTarjetaRegalo' is visible
+
+2023-07-05 20:21:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto' successfully
+
+2023-07-05 20:21:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto' successfully
+
+2023-07-05 20:21:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto' is visible
+
+2023-07-05 20:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto' is visible
+
+2023-07-05 20:21:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Precio")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Precio' is visible
+
+2023-07-05 20:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Precio' is visible
+
+2023-07-05 20:21:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Cantidad")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Cantidad' is visible
+
+2023-07-05 20:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Cantidad' is visible
+
+2023-07-05 20:21:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal' is visible
+
+2023-07-05 20:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal' is visible
+
+2023-07-05 20:21:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_' is visible
+
+2023-07-05 20:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_' is visible
+
+2023-07-05 20:21:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenGafas")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenGafas' is visible
+
+2023-07-05 20:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenGafas' is visible
+
+2023-07-05 20:21:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_PantalanyCamisaDeHombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_PantalanyCamisaDeHombre' is visible
+
+2023-07-05 20:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_PantalanyCamisaDeHombre' is visible
+
+2023-07-05 20:21:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_25,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_25,00' is visible
+
+2023-07-05 20:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_25,00' is visible
+
+2023-07-05 20:21:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_22,50")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_22,50' is visible
+
+2023-07-05 20:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_22,50' is visible
+
+2023-07-05 20:21:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenPantalonYCamisa")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenPantalonYCamisa' is visible
+
+2023-07-05 20:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenPantalonYCamisa' is visible
+
+2023-07-05 20:21:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de noche")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de noche' is visible
+
+2023-07-05 20:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de noche' is visible
+
+2023-07-05 20:21:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_10,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_10,00' is visible
+
+2023-07-05 20:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_10,00' is visible
+
+2023-07-05 20:21:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00' is visible
+
+2023-07-05 20:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00' is visible
+
+2023-07-05 20:21:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00' is visible
+
+2023-07-05 20:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00' is visible
+
+2023-07-05 20:21:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoNoche")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoNoche' is visible
+
+2023-07-05 20:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoNoche' is visible
+
+2023-07-05 20:21:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de playa")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de playa' is visible
+
+2023-07-05 20:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de playa' is visible
+
+2023-07-05 20:21:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_30,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_30,00' is visible
+
+2023-07-05 20:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_30,00' is visible
+
+2023-07-05 20:21:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00' is visible
+
+2023-07-05 20:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00' is visible
+
+2023-07-05 20:21:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00' is visible
+
+2023-07-05 20:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00' is visible
+
+2023-07-05 20:21:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoPlaya")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoPlaya' is visible
+
+2023-07-05 20:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoPlaya' is visible
+
+2023-07-05 20:21:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_GafasDeHombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_GafasDeHombre' is visible
+
+2023-07-05 20:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_GafasDeHombre' is visible
+
+2023-07-05 20:21:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_90,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_90,00' is visible
+
+2023-07-05 20:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_90,00' is visible
+
+2023-07-05 20:21:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00' is visible
+
+2023-07-05 20:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00' is visible
+
+2023-07-05 20:21:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00' is visible
+
+2023-07-05 20:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00' is visible
+
+2023-07-05 20:21:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Total del carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Total del carrito' is visible
+
+2023-07-05 20:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Total del carrito' is visible
+
+2023-07-05 20:21:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal' is visible
+
+2023-07-05 20:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal' is visible
+
+2023-07-05 20:21:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_139,50")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_139,50' is visible
+
+2023-07-05 20:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_139,50' is visible
+
+2023-07-05 20:21:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TotalDeCarrito")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TotalDeCarrito' is clicked on
+
+2023-07-05 20:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TotalDeCarrito' is clicked on
+
+2023-07-05 20:21:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Envo")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Envo' is visible
+
+2023-07-05 20:21:54 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Envo' is visible
+
+2023-07-05 20:21:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/PrecioDeEnvio")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/PrecioDeEnvio' is visible
+
+2023-07-05 20:21:54 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/PrecioDeEnvio' is visible
+
+2023-07-05 20:21:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/label_OpcionesDeEnvio")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/label_OpcionesDeEnvio' is visible
+
+2023-07-05 20:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/label_OpcionesDeEnvio' is visible
+
+2023-07-05 20:21:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_CalcularEnvio")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_CalcularEnvio' is visible
+
+2023-07-05 20:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_CalcularEnvio' is visible
+
+2023-07-05 20:21:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Impuestos (estimado para Espaa)")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Impuestos (estimado para Espaa)' is visible
+
+2023-07-05 20:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Impuestos (estimado para Espaa)' is visible
+
+2023-07-05 20:21:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_0,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_0,00' is visible
+
+2023-07-05 20:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_0,00' is visible
+
+2023-07-05 20:21:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Total")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Total' is visible
+
+2023-07-05 20:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Total' is visible
+
+2023-07-05 20:21:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_142,50")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_142,50' is visible
+
+2023-07-05 20:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_142,50' is visible
+
+2023-07-05 20:21:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra' is visible
+
+2023-07-05 20:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra' is visible
+
+2023-07-05 20:21:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos' .
+
+2023-07-05 20:21:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/ComprobacionPaginaCheckout" time="24.826" classname="Test Cases/ScriptsComunes/ComprobacionPaginaCheckout" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:21:59 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/ComprobacionPaginaCheckout: Test Cases/ScriptsComunes/ComprobacionPaginaCheckout
+
+2023-07-05 20:22:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra' is clicked on
+
+2023-07-05 20:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra' is clicked on
+
+2023-07-05 20:22:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder"), 1): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is present
+
+2023-07-05 20:22:04 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is present
+
+2023-07-05 20:22:04 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo' is right clicked on
+
+2023-07-05 20:22:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo' is right clicked on
+
+2023-07-05 20:22:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo"), 1): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo' is present
+
+2023-07-05 20:22:05 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo' is present
+
+2023-07-05 20:22:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_sala aqu"), "¡Úsala aquí!"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_sala aqu' are matched.
+
+2023-07-05 20:22:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_sala aqu' are matched.
+
+2023-07-05 20:22:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Detalles de facturacin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Detalles de facturacin' is visible
+
+2023-07-05 20:22:05 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Detalles de facturacin' is visible
+
+2023-07-05 20:22:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/SuscripcionBoletin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/SuscripcionBoletin' is visible
+
+2023-07-05 20:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/SuscripcionBoletin' is visible
+
+2023-07-05 20:22:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido"), 0): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' successfully
+
+2023-07-05 20:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' successfully
+
+2023-07-05 20:22:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Enviar a una direccin diferente")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Enviar a una direccin diferente' is visible
+
+2023-07-05 20:22:07 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Enviar a una direccin diferente' is visible
+
+2023-07-05 20:22:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre' successfully
+
+2023-07-05 20:22:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre' successfully
+
+2023-07-05 20:22:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre' is visible
+
+2023-07-05 20:22:07 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre' is visible
+
+2023-07-05 20:22:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Apellidos")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Apellidos' is visible
+
+2023-07-05 20:22:08 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Apellidos' is visible
+
+2023-07-05 20:22:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' is visible
+
+2023-07-05 20:22:08 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' is visible
+
+2023-07-05 20:22:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido' is visible
+
+2023-07-05 20:22:09 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido' is visible
+
+2023-07-05 20:22:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pas  Regin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pas  Regin' is visible
+
+2023-07-05 20:22:09 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pas  Regin' is visible
+
+2023-07-05 20:22:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais' is visible
+
+2023-07-05 20:22:09 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais' is visible
+
+2023-07-05 20:22:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de la calle")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de la calle' is visible
+
+2023-07-05 20:22:10 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de la calle' is visible
+
+2023-07-05 20:22:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion' is visible
+
+2023-07-05 20:22:10 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion' is visible
+
+2023-07-05 20:22:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' is visible
+
+2023-07-05 20:22:11 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' is visible
+
+2023-07-05 20:22:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Poblacin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Poblacin' is visible
+
+2023-07-05 20:22:11 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Poblacin' is visible
+
+2023-07-05 20:22:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad' is visible
+
+2023-07-05 20:22:11 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad' is visible
+
+2023-07-05 20:22:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Regin  Provincia")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Regin  Provincia' is visible
+
+2023-07-05 20:22:12 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Regin  Provincia' is visible
+
+2023-07-05 20:22:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Elige una opcin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Elige una opcin' is visible
+
+2023-07-05 20:22:12 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Elige una opcin' is visible
+
+2023-07-05 20:22:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal' successfully
+
+2023-07-05 20:22:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal' successfully
+
+2023-07-05 20:22:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal' is visible
+
+2023-07-05 20:22:13 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal' is visible
+
+2023-07-05 20:22:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' is visible
+
+2023-07-05 20:22:13 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' is visible
+
+2023-07-05 20:22:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de correo electrnico")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de correo electrnico' is visible
+
+2023-07-05 20:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de correo electrnico' is visible
+
+2023-07-05 20:22:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email' is visible
+
+2023-07-05 20:22:14 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email' is visible
+
+2023-07-05 20:22:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Suscrbete a nuestro boletn")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Suscrbete a nuestro boletn' is visible
+
+2023-07-05 20:22:15 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Suscrbete a nuestro boletn' is visible
+
+2023-07-05 20:22:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido' is visible
+
+2023-07-05 20:22:15 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido' is visible
+
+2023-07-05 20:22:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Producto"), "Producto"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Producto' are matched.
+
+2023-07-05 20:22:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Producto' are matched.
+
+2023-07-05 20:22:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal"), "Subtotal"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal' are matched.
+
+2023-07-05 20:22:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal' are matched.
+
+2023-07-05 20:22:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido"), "Tu pedido"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido' are matched.
+
+2023-07-05 20:22:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido' are matched.
+
+2023-07-05 20:22:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal"), "Subtotal"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal' are matched.
+
+2023-07-05 20:22:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal' are matched.
+
+2023-07-05 20:22:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Envo"), "Envío"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Envo' are matched.
+
+2023-07-05 20:22:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Envo' are matched.
+
+2023-07-05 20:22:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Total"), "Total"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Total' are matched.
+
+2023-07-05 20:22:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Total' are matched.
+
+2023-07-05 20:22:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/td_139,50"), "139,50 €"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/td_139,50' are matched.
+
+2023-07-05 20:22:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/td_139,50' are matched.
+
+2023-07-05 20:22:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Precio fijo 3,00"), 2): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Precio fijo 3,00' is present
+
+2023-07-05 20:22:18 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Precio fijo 3,00' is present
+
+2023-07-05 20:22:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_0,00"), 2): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_0,00' is present
+
+2023-07-05 20:22:18 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_0,00' is present
+
+2023-07-05 20:22:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_142,50"), 2): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_142,50' is present
+
+2023-07-05 20:22:19 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_142,50' is present
+
+2023-07-05 20:22:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Transferencia bancaria directa"), "Transferencia bancaria directa"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Transferencia bancaria directa' are matched.
+
+2023-07-05 20:22:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Transferencia bancaria directa' are matched.
+
+2023-07-05 20:22:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pagos por cheque"), 2): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pagos por cheque' is present
+
+2023-07-05 20:22:19 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pagos por cheque' is present
+
+2023-07-05 20:22:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contra reembolso"), "Contra reembolso"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contra reembolso' are matched.
+
+2023-07-05 20:22:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contra reembolso' are matched.
+
+2023-07-05 20:22:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Marca aqu para recibir la invitacin de_4e7bcb")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Marca aqu para recibir la invitacin de_4e7bcb' is visible
+
+2023-07-05 20:22:20 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Marca aqu para recibir la invitacin de_4e7bcb' is visible
+
+2023-07-05 20:22:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1"), "He leído y estoy de acuerdo con los términos y condiciones de la web"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1' are matched.
+
+2023-07-05 20:22:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1' are matched.
+
+2023-07-05 20:22:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Acepto recibir ofertas, noticias y ot_c16676"), "Acepto recibir ofertas, noticias y otras recomendaciones sobre productos o servicios (opcional)"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Acepto recibir ofertas, noticias y ot_c16676' are matched.
+
+2023-07-05 20:22:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Acepto recibir ofertas, noticias y ot_c16676' are matched.
+
+2023-07-05 20:22:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is visible
+
+2023-07-05 20:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is visible
+
+2023-07-05 20:22:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' successfully
+
+2023-07-05 20:22:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' successfully
+
+2023-07-05 20:22:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/ComprobacionPaginaCheckout' .
+
+2023-07-05 20:22:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/ComprobacionPaginaCheckout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/LoginDesdeCheckout" time="18.288" classname="Test Cases/ScriptsComunes/LoginDesdeCheckout" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:22:24 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/LoginDesdeCheckout: Test Cases/ScriptsComunes/LoginDesdeCheckout
+
+2023-07-05 20:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is clicked on
+
+2023-07-05 20:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is clicked on
+
+2023-07-05 20:22:25 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-07-05 20:22:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-05 20:22:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico"), "Nombre de usuario o correo electrónico *"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico' are matched.
+
+2023-07-05 20:22:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico' are matched.
+
+2023-07-05 20:22:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea"), "Contraseña *"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea' are matched.
+
+2023-07-05 20:22:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea' are matched.
+
+2023-07-05 20:22:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario' is visible
+
+2023-07-05 20:22:29 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario' is visible
+
+2023-07-05 20:22:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password' is visible
+
+2023-07-05 20:22:29 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password' is visible
+
+2023-07-05 20:22:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is visible
+
+2023-07-05 20:22:30 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is visible
+
+2023-07-05 20:22:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame' is visible
+
+2023-07-05 20:22:30 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame' is visible
+
+2023-07-05 20:22:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea"), "¿Olvidaste la contraseña?"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea' are matched.
+
+2023-07-05 20:22:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea' are matched.
+
+2023-07-05 20:22:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario"), Usuario): Text 'tejonloco0@gmail.com' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario'
+
+2023-07-05 20:22:31 - [MESSAGE][PASSED] - Text 'tejonloco0@gmail.com' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario'
+
+2023-07-05 20:22:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password"), Password): Text 'Isabela_2023_' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password'
+
+2023-07-05 20:22:32 - [MESSAGE][PASSED] - Text 'Isabela_2023_' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password'
+
+2023-07-05 20:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is clicked on
+
+2023-07-05 20:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is clicked on
+
+2023-07-05 20:22:43 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/LoginDesdeCheckout' .
+
+2023-07-05 20:22:43 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/LoginDesdeCheckout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente" time="11.6" classname="Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	... 23 more
+"/>
+         <system-out><![CDATA[2023-07-05 20:22:43 - [TEST_CASE][FAILED] - Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente: Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	... 23 more
+
+
+2023-07-05 20:22:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' successfully
+
+2023-07-05 20:22:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' successfully
+
+2023-07-05 20:22:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre"), "value", Nombre, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' has attribute 'value' with value 'sonia'
+
+2023-07-05 20:22:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:44 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' has attribute 'value' with value 'sonia'
+
+2023-07-05 20:22:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido"), "value", Apellido, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido' has attribute 'value' with value 'sanchez'
+
+2023-07-05 20:22:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido' has attribute 'value' with value 'sanchez'
+
+2023-07-05 20:22:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais"), "title", Pais, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais' has attribute 'title' with value 'España'
+
+2023-07-05 20:22:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais' has attribute 'title' with value 'España'
+
+2023-07-05 20:22:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion"), "value", Direccion, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion' has attribute 'value' with value 'calle doctor esquerdo 169'
+
+2023-07-05 20:22:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:46 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion' has attribute 'value' with value 'calle doctor esquerdo 169'
+
+2023-07-05 20:22:46 - [TEST_STEP][FAILED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso"), "value", Piso, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+)
+
+2023-07-05 20:22:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:47 - [MESSAGE][FAILED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\aleja\\git\\backup\\AutomatizacionTiendaVirtual_PFP\\Reports\\20230705_202102\\Funcionalidades basicas\\Compra de un grupo de productos con descuentos con cliente registrado\\20230705_202102\\1688581366717.png]]
+
+2023-07-05 20:22:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad"), "value", Ciudad, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad' has attribute 'value' with value 'madrid'
+
+2023-07-05 20:22:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:47 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad' has attribute 'value' with value 'madrid'
+
+2023-07-05 20:22:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Comunidad"), "title", Comunidad, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Comunidad' has attribute 'title' with value 'Madrid'
+
+2023-07-05 20:22:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:48 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Comunidad' has attribute 'title' with value 'Madrid'
+
+2023-07-05 20:22:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' successfully
+
+2023-07-05 20:22:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' successfully
+
+2023-07-05 20:22:48 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP"), "value", CP, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' has attribute 'value' with value '28007'
+
+2023-07-05 20:22:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:48 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' has attribute 'value' with value '28007'
+
+2023-07-05 20:22:48 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email"), "value", Email, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email' has attribute 'value' with value 'tejonloco0@gmail.com'
+
+2023-07-05 20:22:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 20:22:49 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email' has attribute 'value' with value 'tejonloco0@gmail.com'
+
+2023-07-05 20:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83' is clicked on
+
+2023-07-05 20:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83' is clicked on
+
+2023-07-05 20:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6' is clicked on
+
+2023-07-05 20:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6' is clicked on
+
+2023-07-05 20:22:54 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente' .
+
+2023-07-05 20:22:54 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente' .]]></system-out>
+         <system-err><![CDATA[2023-07-05 20:22:43 - [TEST_CASE][FAILED] - Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente: Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso" time="10.948" classname="Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:22:54 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso: Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso
+
+2023-07-05 20:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is clicked on
+
+2023-07-05 20:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is clicked on
+
+2023-07-05 20:22:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra"), "Gracias por tu compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra' are matched.
+
+2023-07-05 20:23:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra' are matched.
+
+2023-07-05 20:23:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0"), "Te agradecemos la compra en esta tienda. Esperamos que compres mas veces en esta tienda por eso debajo de la imagen tienes un cupón descuento para que lo utilices en tu próxima compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0' are matched.
+
+2023-07-05 20:23:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0' are matched.
+
+2023-07-05 20:23:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76' is visible
+
+2023-07-05 20:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76' is visible
+
+2023-07-05 20:23:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281"), "Aquí tienes tu cupón con un descuento del 10% para tu próxima compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281' are matched.
+
+2023-07-05 20:23:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281' are matched.
+
+2023-07-05 20:23:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i' is visible
+
+2023-07-05 20:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i' is visible
+
+2023-07-05 20:23:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso' .
+
+2023-07-05 20:23:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-05 20:21:07 - [TEST_SUITE][FAILED] - Compra de un grupo de productos con descuentos con cliente registrado: Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2023-07-05 20:21:07 - [TEST_SUITE][FAILED] - Compra de un grupo de productos con descuentos con cliente registrado: Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:4338)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$12.call(Unknown Source)
+	at ComprobacionDatosDeEnvioDeCliente.run(ComprobacionDatosDeEnvioDeCliente:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688581262184.run(TempTestSuite1688581262184.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with actual value '2 c' instead of expected value '2c'
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Ver carrito</name>
+   <tag></tag>
+   <elementGuidId>750750e0-5d97-44a6-bf61-fcb86c180c71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.woocommerce-message > a.button.wc-forward</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9f1fac59-d8b4-423f-82df-1c0a38878a8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://pruebasqafenix.com/carrito/</value>
+      <webElementGuid>8c5f4f90-213f-4bbb-a177-c4478bc6345f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>622fae52-6705-435f-93d2-bc0f150792dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button wc-forward</value>
+      <webElementGuid>0f2e6e42-5f81-46de-8f09-02f3d78bc9cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ver carrito</value>
+      <webElementGuid>56a252be-a393-4254-8034-6aadc8dd9a2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-9&quot;]/div[@class=&quot;woocommerce-notices-wrapper&quot;]/div[@class=&quot;woocommerce-message&quot;]/a[@class=&quot;button wc-forward&quot;]</value>
+      <webElementGuid>e55beaf3-d2f3-4e99-9cd2-8f9589038602</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/div/a</value>
+      <webElementGuid>6a8a418d-fb7b-478d-a4ce-b4a5c00b81d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Ver carrito')])[2]</value>
+      <webElementGuid>d18c979a-4bad-4b76-b950-5df86e68c842</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Camiseta para mujer'])[1]/following::a[1]</value>
+      <webElementGuid>7fb25c94-62e8-425b-bba1-7124762ea632</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¡Oferta!'])[1]/preceding::a[1]</value>
+      <webElementGuid>632ccf82-156a-4754-a435-c94ff6c8e7b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Camiseta para mujer'])[2]/preceding::a[5]</value>
+      <webElementGuid>c88a4518-ff17-4f11-8499-72df264adf4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://pruebasqafenix.com/carrito/')])[4]</value>
+      <webElementGuid>9bb940c1-bff7-427f-b34d-cc05e6b12f81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/a</value>
+      <webElementGuid>8616d5b1-d31a-4572-8a1c-5a7487c4a308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://pruebasqafenix.com/carrito/' and (text() = 'Ver carrito' or . = 'Ver carrito')]</value>
+      <webElementGuid>da9930b7-b331-422a-96dd-998aa798c16f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

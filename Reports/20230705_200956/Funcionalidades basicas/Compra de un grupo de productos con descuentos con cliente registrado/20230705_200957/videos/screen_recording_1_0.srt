@@ -1,0 +1,20 @@
+1
+00:00:00,285 --> 00:00:04,071
+1. openBrowser("")
+
+2
+00:00:04,086 --> 00:00:06,149
+5. navigateToUrl("https://pruebasqafenix.com/")
+
+3
+00:00:06,150 --> 00:00:06,434
+9. maximizeWindow()
+
+4
+00:00:06,436 --> 00:00:06,717
+13. waitForPageLoad(30)
+
+5
+00:00:06,720 --> 00:00:07,450
+17. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies"))
+

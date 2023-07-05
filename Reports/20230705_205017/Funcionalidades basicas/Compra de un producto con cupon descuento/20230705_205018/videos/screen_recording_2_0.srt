@@ -1,0 +1,36 @@
+1
+00:00:00,732 --> 00:00:01,905
+1. click(findTestObject("Compra de un producto con cupon descuento/Page_Inicio -/a_Tienda"))
+
+2
+00:00:01,906 --> 00:00:03,527
+5. click(findTestObject("Compra de un producto con cupon descuento/Page_Tienda -/h2_Gafas de hombre"))
+
+3
+00:00:03,530 --> 00:00:07,617
+9. click(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/BotonAñadirACarrito"))
+
+4
+00:00:07,619 --> 00:00:08,766
+13. mouseOver(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/IconoCarrito"))
+
+5
+00:00:08,769 --> 00:00:09,227
+17. verifyElementText(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Gafas de hombre"), NombreProducto)
+
+6
+00:00:09,228 --> 00:00:09,642
+21. verifyElementText(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/strong_Subtotal"), "Subtotal:")
+
+7
+00:00:09,644 --> 00:00:10,093
+25. verifyElementVisible(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Ver carrito"))
+
+8
+00:00:10,095 --> 00:00:10,552
+29. verifyElementVisible(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra"))
+
+9
+00:00:10,554 --> 00:00:11,001
+33. verifyElementText(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/div_PrecioTotalCarrito"), "81,00 €")
+

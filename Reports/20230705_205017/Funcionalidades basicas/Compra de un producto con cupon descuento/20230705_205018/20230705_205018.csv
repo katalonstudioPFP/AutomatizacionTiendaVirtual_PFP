@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Compra de un producto con cupon descuento,Chrome 114.0.0.0,,,2023-07-05 20:50:24,2023-07-05 20:51:41,"1m - 16,938s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/AccesoATienda,Chrome 114.0.0.0,,,2023-07-05 20:50:24,2023-07-05 20:50:33,"9,346s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-05 20:50:24,2023-07-05 20:50:28,"3,210s",PASSED
+"navigateToUrl(""https://pruebasqafenix.com/"")",Chrome 114.0.0.0,,,2023-07-05 20:50:28,2023-07-05 20:50:30,"2,203s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-05 20:50:30,2023-07-05 20:50:30,"0,259s",PASSED
+waitForPageLoad(30),Chrome 114.0.0.0,,,2023-07-05 20:50:30,2023-07-05 20:50:30,"0,401s",PASSED
+"click(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies""))",Chrome 114.0.0.0,,,2023-07-05 20:50:30,2023-07-05 20:50:31,"0,709s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:50:33,2023-07-05 20:50:33,"0,002s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/SeleccionarProducto,Chrome 114.0.0.0,,,2023-07-05 20:50:33,2023-07-05 20:50:47,"13,230s",PASSED
+"click(findTestObject(""Compra de un producto con cupon descuento/Page_Inicio -/a_Tienda""))",Chrome 114.0.0.0,,,2023-07-05 20:50:34,2023-07-05 20:50:35,"1,173s",PASSED
+"click(findTestObject(""Compra de un producto con cupon descuento/Page_Tienda -/h2_Gafas de hombre""))",Chrome 114.0.0.0,,,2023-07-05 20:50:35,2023-07-05 20:50:37,"1,624s",PASSED
+"click(findTestObject(""Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/BotonAñadirACarrito""))",Chrome 114.0.0.0,,,2023-07-05 20:50:37,2023-07-05 20:50:41,"4,088s",PASSED
+"mouseOver(findTestObject(""Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/IconoCarrito""))",Chrome 114.0.0.0,,,2023-07-05 20:50:41,2023-07-05 20:50:42,"1,151s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Gafas de hombre""), NombreProducto)",Chrome 114.0.0.0,,,2023-07-05 20:50:42,2023-07-05 20:50:43,"0,457s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/strong_Subtotal""), ""Subtotal:"")",Chrome 114.0.0.0,,,2023-07-05 20:50:43,2023-07-05 20:50:43,"0,415s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Ver carrito""))",Chrome 114.0.0.0,,,2023-07-05 20:50:43,2023-07-05 20:50:44,"0,451s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra""))",Chrome 114.0.0.0,,,2023-07-05 20:50:44,2023-07-05 20:50:44,"0,459s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/div_PrecioTotalCarrito""), ""81,00 €"")",Chrome 114.0.0.0,,,2023-07-05 20:50:44,2023-07-05 20:50:44,"0,444s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:50:47,2023-07-05 20:50:47,"0,001s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/IrCheckOut,Chrome 114.0.0.0,,,2023-07-05 20:50:47,2023-07-05 20:50:52,"5,158s",PASSED
+"click(findTestObject(""Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra""))",Chrome 114.0.0.0,,,2023-07-05 20:50:47,2023-07-05 20:50:50,"2,616s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:50:52,2023-07-05 20:50:52,"0,001s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/LoginDesdeCheckout,Chrome 114.0.0.0,,,2023-07-05 20:50:52,2023-07-05 20:51:10,"18,634s",PASSED
+"click(findTestObject(""Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder""))",Chrome 114.0.0.0,,,2023-07-05 20:50:52,2023-07-05 20:50:53,"0,424s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-05 20:50:53,2023-07-05 20:50:55,"2,080s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico""), ""Nombre de usuario o correo electrónico *"")",Chrome 114.0.0.0,,,2023-07-05 20:50:55,2023-07-05 20:50:55,"0,523s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea""), ""Contraseña *"")",Chrome 114.0.0.0,,,2023-07-05 20:50:55,2023-07-05 20:50:56,"0,434s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario""))",Chrome 114.0.0.0,,,2023-07-05 20:50:56,2023-07-05 20:50:56,"0,465s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password""), CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-05 20:50:56,2023-07-05 20:50:57,"0,597s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder""))",Chrome 114.0.0.0,,,2023-07-05 20:50:57,2023-07-05 20:50:57,"0,458s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame""))",Chrome 114.0.0.0,,,2023-07-05 20:50:57,2023-07-05 20:50:58,"0,448s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea""), ""¿Olvidaste la contraseña?"")",Chrome 114.0.0.0,,,2023-07-05 20:50:58,2023-07-05 20:50:58,"0,384s",PASSED
+"setText(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario""), Usuario)",Chrome 114.0.0.0,,,2023-07-05 20:50:58,2023-07-05 20:50:59,"0,799s",PASSED
+"setText(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password""), Password)",Chrome 114.0.0.0,,,2023-07-05 20:50:59,2023-07-05 20:51:00,"0,798s",PASSED
+"click(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder""))",Chrome 114.0.0.0,,,2023-07-05 20:51:00,2023-07-05 20:51:08,"8,627s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:51:10,2023-07-05 20:51:10,"0,001s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/UtilizarCupon,Chrome 114.0.0.0,,,2023-07-05 20:51:10,2023-07-05 20:51:21,"10,463s",PASSED
+"click(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo""))",Chrome 114.0.0.0,,,2023-07-05 20:51:11,2023-07-05 20:51:11,"0,446s",PASSED
+"verifyElementVisible(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/div_Tienes un cupon Haz clic aqu para introducirlo""))",Chrome 114.0.0.0,,,2023-07-05 20:51:11,2023-07-05 20:51:12,"0,573s",PASSED
+"verifyElementText(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo""), ""Haz clic aquí para introducir tu código"")",Chrome 114.0.0.0,,,2023-07-05 20:51:12,2023-07-05 20:51:12,"0,386s",PASSED
+"verifyElementText(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/p_Si tienes un cdigo de cupon, por favor, aplicalo""), ""Si tienes un código de cupón, por favor, aplícalo abajo."")",Chrome 114.0.0.0,,,2023-07-05 20:51:12,2023-07-05 20:51:13,"0,424s",PASSED
+"verifyElementVisible(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon""))",Chrome 114.0.0.0,,,2023-07-05 20:51:13,2023-07-05 20:51:13,"0,410s",PASSED
+"verifyElementVisible(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon""))",Chrome 114.0.0.0,,,2023-07-05 20:51:13,2023-07-05 20:51:14,"0,439s",PASSED
+"verifyElementText(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon""), ""Aplicar cupón"")",Chrome 114.0.0.0,,,2023-07-05 20:51:14,2023-07-05 20:51:14,"0,402s",PASSED
+"setText(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon""), Cupon)",Chrome 114.0.0.0,,,2023-07-05 20:51:14,2023-07-05 20:51:15,"0,743s",PASSED
+"click(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon""))",Chrome 114.0.0.0,,,2023-07-05 20:51:15,2023-07-05 20:51:15,"0,472s",PASSED
+"verifyElementText(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/div_El codigo de cupon se aplica correctamente""), ""El código de cupón se ha aplicado correctamente."")",Chrome 114.0.0.0,,,2023-07-05 20:51:15,2023-07-05 20:51:19,"3,559s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:51:21,2023-07-05 20:51:21,"0,001s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/AceptarCondicionesTienda,Chrome 114.0.0.0,,,2023-07-05 20:51:21,2023-07-05 20:51:24,"2,893s",PASSED
+"click(findTestObject(""Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1""))",Chrome 114.0.0.0,,,2023-07-05 20:51:21,2023-07-05 20:51:22,"0,422s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:51:24,2023-07-05 20:51:24,"0,001s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/PagoContrareembolso,Chrome 114.0.0.0,,,2023-07-05 20:51:24,2023-07-05 20:51:27,"2,914s",PASSED
+"click(findTestObject(""Compra de un producto con cupon descuento/Page_Checkout -/PagoContrareembolso""))",Chrome 114.0.0.0,,,2023-07-05 20:51:24,2023-07-05 20:51:25,"0,408s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:51:27,2023-07-05 20:51:27,"0,001s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso,Chrome 114.0.0.0,,,2023-07-05 20:51:27,2023-07-05 20:51:37,"10,207s",PASSED
+"click(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido""))",Chrome 114.0.0.0,,,2023-07-05 20:51:27,2023-07-05 20:51:28,"0,789s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra""), ""Gracias por tu compra"")",Chrome 114.0.0.0,,,2023-07-05 20:51:28,2023-07-05 20:51:33,"5,170s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0""), ""Te agradecemos la compra en esta tienda. Esperamos que compres mas veces en esta tienda por eso debajo de la imagen tienes un cupón descuento para que lo utilices en tu próxima compra"")",Chrome 114.0.0.0,,,2023-07-05 20:51:33,2023-07-05 20:51:34,"0,395s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76""))",Chrome 114.0.0.0,,,2023-07-05 20:51:34,2023-07-05 20:51:34,"0,413s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281""), ""Aquí tienes tu cupón con un descuento del 10% para tu próxima compra"")",Chrome 114.0.0.0,,,2023-07-05 20:51:34,2023-07-05 20:51:34,"0,403s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i""))",Chrome 114.0.0.0,,,2023-07-05 20:51:34,2023-07-05 20:51:35,"0,430s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:51:37,2023-07-05 20:51:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/ScriptsComunes/CerrarNavegador,Chrome 114.0.0.0,,,2023-07-05 20:51:37,2023-07-05 20:51:41,"3,704s",PASSED
+deleteAllCookies(),Chrome 114.0.0.0,,,2023-07-05 20:51:37,2023-07-05 20:51:37,"0,087s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-05 20:51:37,2023-07-05 20:51:39,"1,206s",PASSED
+Video,Chrome 114.0.0.0,,,2023-07-05 20:51:41,2023-07-05 20:51:41,"0,001s",PASSED

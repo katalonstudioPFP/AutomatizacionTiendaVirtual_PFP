@@ -1,0 +1,20 @@
+1
+00:00:00,531 --> 00:00:03,080
+1. click(findTestObject("Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Mis cupones"))
+
+2
+00:00:03,081 --> 00:00:05,003
+5. verifyElementText(findTestObject("Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/h4_Cupones disponibles"), "Cupones disponibles")
+
+3
+00:00:05,004 --> 00:00:05,377
+9. verifyElementVisible(findTestObject("Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/div_10            Cart discount            _75c9ee"))
+
+4
+00:00:05,378 --> 00:00:05,771
+13. verifyElementText(findTestObject("Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/h4_Used Coupons"), "Used Coupons")
+
+5
+00:00:05,772 --> 00:00:06,144
+17. verifyElementVisible(findTestObject("Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/div_10            Cart discount            _076c17"))
+

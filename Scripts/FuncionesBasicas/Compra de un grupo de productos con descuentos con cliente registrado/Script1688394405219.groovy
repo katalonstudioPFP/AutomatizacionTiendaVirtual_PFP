@@ -23,11 +23,11 @@ WebUI.callTestCase(findTestCase('ScriptsComunes/BusquedaDeProductosEnDescuento')
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionPaginaDeProductosConDescuento'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarCarritoDeCompra'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarCarritoVariosProductos'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionPaginaCheckout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/LoginDesdeCheckout'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : '9o7XgbA+wJPdBtrf/4yMwA=='], 
+WebUI.callTestCase(findTestCase('ScriptsComunes/LoginDesdeCheckout'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : 'Isabela_2023_'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionDatosDeEnvioDeCliente'), [('Nombre') : 'sonia', ('Apellido') : 'sanchez'
@@ -36,5 +36,5 @@ WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionDatosDeEnvioDeClient
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('ScriptsComunes/CerrarNavegador'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

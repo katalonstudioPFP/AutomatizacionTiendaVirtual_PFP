@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_28009 madrid, Madrid</name>
+   <tag></tag>
+   <elementGuidId>4c9cb923-f7ad-4079-8e00-4f19812a9a21</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/div/div/div/div[4]/div/table/tbody/tr[2]/td/p/strong</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>754dafe3-9a0e-41b0-9aa8-a78da2b93d47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>28009 madrid, Madrid</value>
+      <webElementGuid>fa4bb841-956d-463f-8a79-4681049c7d2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-384 page type-page status-publish hentry&quot;]/div[@class=&quot;main-content-page single-content&quot;]/div[@class=&quot;single-entry-summary&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;cart-collaterals&quot;]/div[@class=&quot;cart_totals calculated_shipping&quot;]/table[@class=&quot;shop_table shop_table_responsive&quot;]/tbody[1]/tr[@class=&quot;woocommerce-shipping-totals shipping&quot;]/td[1]/p[@class=&quot;woocommerce-shipping-destination&quot;]/strong[1]</value>
+      <webElementGuid>7ad710b1-f5c6-4284-a409-fea4c3270381</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/div/div/div/div[4]/div/table/tbody/tr[2]/td/p/strong</value>
+      <webElementGuid>9cb0a79d-ca8e-4e6c-a77a-53921e0b8fa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[5]/following::strong[1]</value>
+      <webElementGuid>59be40e7-a845-485d-861e-3a173154af5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='País o región:'])[1]/preceding::strong[1]</value>
+      <webElementGuid>6a9bc2cd-2fbb-40d5-b62a-1c6513a317c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Región / Provincia:'])[1]/preceding::strong[1]</value>
+      <webElementGuid>bcb54176-bd0f-4688-a81b-f60c83d38384</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='28009 madrid, Madrid']/parent::*</value>
+      <webElementGuid>d06730b3-0f2d-464d-b61e-59ad5e1dbe99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong</value>
+      <webElementGuid>19cf1301-a822-41bf-9c06-5c0bf5d8f27c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = '28009 madrid, Madrid' or . = '28009 madrid, Madrid')]</value>
+      <webElementGuid>93dc26d8-847e-4546-afea-9cf4d1810bde</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

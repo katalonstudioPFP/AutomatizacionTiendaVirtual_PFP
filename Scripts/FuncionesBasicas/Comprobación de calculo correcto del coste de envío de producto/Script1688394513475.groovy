@@ -17,3 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('ScriptsComunes/AccesoATienda'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/SeleccionaProducto2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarCarritoProducto'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarCalculoCosteDeEnvio'), [('Provincia') : 'madrid', ('CP') : '28009'
+        , ('CosteEnvio') : '4,60 €'], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/CerrarNavegador'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+

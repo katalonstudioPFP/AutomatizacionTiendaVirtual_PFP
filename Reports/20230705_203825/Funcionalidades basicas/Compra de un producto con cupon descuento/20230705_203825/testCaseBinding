@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/ScriptsComunes/AccesoATienda","testCaseId":"Test Cases/ScriptsComunes/AccesoATienda","iterationVariableName":""}
+{"testCaseName":"Test Cases/ScriptsComunes/SeleccionarProducto","testCaseId":"Test Cases/ScriptsComunes/SeleccionarProducto","iterationVariableName":""}
+{"testCaseName":"Test Cases/ScriptsComunes/IrCheckOut","testCaseId":"Test Cases/ScriptsComunes/IrCheckOut","iterationVariableName":""}
+{"testCaseName":"Test Cases/ScriptsComunes/LoginDesdeCheckout","testCaseId":"Test Cases/ScriptsComunes/LoginDesdeCheckout","iterationVariableName":"","bindedValues":{"Usuario":"\u0027tejonloco0@gmail.com\u0027","Password":"\u0027Isabela_2023_\u0027"}}
+{"testCaseName":"Test Cases/ScriptsComunes/UtilizarCupon","testCaseId":"Test Cases/ScriptsComunes/UtilizarCupon","iterationVariableName":"","bindedValues":{"Cupon":"\u0027Y87ZY9VC\\\u0027\u0027"}}
+{"testCaseName":"Test Cases/ScriptsComunes/AceptarCondicionesTienda","testCaseId":"Test Cases/ScriptsComunes/AceptarCondicionesTienda","iterationVariableName":""}
+{"testCaseName":"Test Cases/ScriptsComunes/PagoContrareembolso","testCaseId":"Test Cases/ScriptsComunes/PagoContrareembolso","iterationVariableName":""}
+{"testCaseName":"Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso","testCaseId":"Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso","iterationVariableName":""}
+{"testCaseName":"Test Cases/ScriptsComunes/CerrarNavegador","testCaseId":"Test Cases/ScriptsComunes/CerrarNavegador","iterationVariableName":""}

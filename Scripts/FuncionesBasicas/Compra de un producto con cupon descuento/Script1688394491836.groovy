@@ -26,11 +26,13 @@ WebUI.callTestCase(findTestCase('ScriptsComunes/IrCheckOut'), [:], FailureHandli
 WebUI.callTestCase(findTestCase('ScriptsComunes/LoginDesdeCheckout'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : 'Isabela_2023_'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/UtilizarCupon'), [('Cupon') : 'MHJ8P64W'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/UtilizarCupon'), [('Cupon') : Cupon], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/AceptarCondicionesTienda'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/PagoContrareembolso'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ScriptsComunes/CerrarNavegador'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

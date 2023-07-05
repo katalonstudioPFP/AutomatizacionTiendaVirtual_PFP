@@ -17,28 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo'))
+WebUI.click(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/div_Tienes un cupn Haz clic aqu para introd_2bfdbc'))
+WebUI.verifyElementVisible(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/div_Tienes un cupon Haz clic aqu para introducirlo'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo'), 
+WebUI.verifyElementText(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo'), 
     'Haz clic aquí para introducir tu código')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/p_Si tienes un cdigo de cupn, por favor, ap_d37d78'), 
+WebUI.verifyElementText(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/p_Si tienes un cdigo de cupon, por favor, aplicalo'), 
     'Si tienes un código de cupón, por favor, aplícalo abajo.')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/input_Cupn_coupon_code'))
+WebUI.verifyElementVisible(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/button_Aplicar cupn'))
+WebUI.verifyElementVisible(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/button_Aplicar cupn'), 
-    'Aplicar cupón')
+WebUI.verifyElementText(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon'), 'Aplicar cupón')
 
-WebUI.setText(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/input_Cupn_coupon_code'), 
-    Cupon)
+WebUI.setText(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon'), Cupon)
 
-WebUI.click(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/button_Aplicar cupn'))
+WebUI.click(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Compra de un producto con cupon descuento/UtilizarCupon/Page_Checkout -/div_El cdigo de cupn se ha aplicado correctamente'), 
+WebUI.verifyElementText(findTestObject('Compra de un producto con cupon descuento/Page_Checkout -/div_El codigo de cupon se aplica correctamente'), 
     'El código de cupón se ha aplicado correctamente.')
 

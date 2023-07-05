@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementText(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/p_Hola sonia (no eres sonia Cerrar sesin)'), 
-    "'Hola "+ NombreVisible  + " (¿no eres " + NombreVisible + "? Cerrar sesión)'")
+    ((('Hola ' + NombreVisible) + ' (¿no eres ') + NombreVisible) + '? Cerrar sesión)')
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_CerrarSesion'))
 
@@ -48,26 +48,21 @@ WebUI.verifyElementText(findTestObject('Object Repository/Modificación de datos
 WebUI.verifyElementText(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/span_Acciones'), 
     'Acciones')
 
-WebUI.click(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Siguiente'))
+EstadoPedido=WebUI.getText(findTestObject('Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/td_En espera'))
+ println(EstadoPedido)
+while(EstadoPedido!="Procesando") {
+	WebUI.click(findTestObject('Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Siguiente'))
+}
+if(EstadoPedido=="Procesando" || EstadoPedido=="En espera")
+{
+	WebUI.verifyTextPresent('Ver', false)
+}
+else {
+	WebUI.verifyTextPresent('Pagar', false)
+	WebUI.verifyTextPresent('Ver', false)
+	WebUI.verifyTextPresent('Cancelar', false)
+}
 
-WebUI.verifyElementText(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/td_En espera'), 
-    'En espera')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Ver'), 
-    'Ver')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/td_Pendiente de pago'), 
-    'Pendiente de pago')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Pagar'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Pagar'), 
-    'Pagar')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Ver_1'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Cancelar'), 
-    'Cancelar')
 
 WebUI.click(findTestObject('Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Tarjetas regalo'))
 

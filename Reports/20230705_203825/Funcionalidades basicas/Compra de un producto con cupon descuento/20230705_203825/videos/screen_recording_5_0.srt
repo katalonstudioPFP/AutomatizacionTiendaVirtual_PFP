@@ -1,0 +1,40 @@
+1
+00:00:00,584 --> 00:00:00,977
+1. click(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo"))
+
+2
+00:00:00,978 --> 00:00:01,611
+5. verifyElementVisible(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/div_Tienes un cupon Haz clic aqu para introducirlo"))
+
+3
+00:00:01,612 --> 00:00:02,031
+9. verifyElementText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo"), "Haz clic aquí para introducir tu código")
+
+4
+00:00:02,033 --> 00:00:02,476
+13. verifyElementText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/p_Si tienes un cdigo de cupon, por favor, aplicalo"), "Si tienes un código de cupón, por favor, aplícalo abajo.")
+
+5
+00:00:02,478 --> 00:00:02,919
+17. verifyElementVisible(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon"))
+
+6
+00:00:02,922 --> 00:00:03,398
+21. verifyElementVisible(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon"))
+
+7
+00:00:03,399 --> 00:00:03,806
+25. verifyElementText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon"), "Aplicar cupón")
+
+8
+00:00:03,807 --> 00:00:04,584
+29. setText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon"), Cupon)
+
+9
+00:00:04,585 --> 00:00:05,130
+33. click(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon"))
+
+10
+00:00:05,131 --> 00:00:38,027
+37. verifyElementText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/div_El codigo de cupon se aplica correctamente"), "El código de cupón se ha aplicado correctamente.")
+

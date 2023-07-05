@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Compra de un grupo de productos con descuentos con cliente registrado</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>204df2ab-5e82-44af-8e34-d3216f7a90f5</testSuiteGuid>
+   <testCaseLink>
+      <guid>2e8ae906-bdd7-4316-9065-d3a581ba5639</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScriptsComunes/AccesoATienda</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0fb2703c-2b42-4aba-8669-987c90f87b12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62f3e477-fd65-46c5-828f-45d416ad73e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9056d164-fa1f-4cfd-939d-c0398ebdb5c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5264032a-7dbf-4902-a485-7a2a4ee785a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScriptsComunes/ComprobacionPaginaCheckout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c1d6ab9-13fe-4639-9d91-1323f41db881</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScriptsComunes/LoginDesdeCheckout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f8cdfd90-a7dd-4866-b706-a12d27700d3e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Datos</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f8cdfd90-a7dd-4866-b706-a12d27700d3e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Usuario</value>
+         <variableId>bb30f80a-66ed-4186-9991-0055fccacd5e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f8cdfd90-a7dd-4866-b706-a12d27700d3e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>974db152-9dab-4403-9aa5-b817dc149cb7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>063fb6ef-367d-4ace-a5f3-68d1ef0d91b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4324db04-bd90-4d55-8f9e-66deb54d8416</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Datos</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nombre</value>
+         <variableId>b19729b4-6c26-4425-80c2-93e71e8e692c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Apellido</value>
+         <variableId>e73f4570-c736-4852-a2db-40c762b8eeef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pais</value>
+         <variableId>07d18671-f6e9-446f-b75f-92d5ab272559</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Direccion</value>
+         <variableId>10e8fa42-c49c-4408-b3e9-604b13e09b1f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Piso</value>
+         <variableId>d326a925-88c0-4197-a561-2e2397b41578</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Ciudad</value>
+         <variableId>540ac51e-182b-4956-bd83-88e921a05cac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Comunidad</value>
+         <variableId>292af083-24e8-4433-8cea-d6aca3efc363</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CP</value>
+         <variableId>faf7969b-fcfd-41b7-ae91-806188abfd55</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4324db04-bd90-4d55-8f9e-66deb54d8416</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>7e81dadb-bd70-40ad-9f2a-799c94655c40</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa83583e-ea0c-421f-93e7-2dba2d2a2270</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

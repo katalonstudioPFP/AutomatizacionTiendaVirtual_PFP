@@ -1,0 +1,164 @@
+1
+00:00:00,439 --> 00:00:02,698
+1. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito"))
+
+2
+00:00:02,700 --> 00:00:03,909
+5. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Carrito"), "Carrito")
+
+3
+00:00:03,911 --> 00:00:04,293
+9. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TienesTarjetaRegalo"))
+
+4
+00:00:04,295 --> 00:00:04,664
+13. scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto"), 2)
+
+5
+00:00:04,666 --> 00:00:05,087
+17. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto"))
+
+6
+00:00:05,088 --> 00:00:05,538
+21. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Precio"))
+
+7
+00:00:05,539 --> 00:00:05,953
+25. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Cantidad"))
+
+8
+00:00:05,954 --> 00:00:06,361
+29. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal"))
+
+9
+00:00:06,362 --> 00:00:06,777
+33. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_"))
+
+10
+00:00:06,778 --> 00:00:07,169
+37. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenGafas"))
+
+11
+00:00:07,171 --> 00:00:07,574
+41. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_PantalanyCamisaDeHombre"))
+
+12
+00:00:07,578 --> 00:00:07,971
+45. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_25,00"))
+
+13
+00:00:07,973 --> 00:00:08,390
+49. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_22,50"))
+
+14
+00:00:08,391 --> 00:00:08,789
+53. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenPantalonYCamisa"))
+
+15
+00:00:08,790 --> 00:00:09,196
+57. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de noche"))
+
+16
+00:00:09,198 --> 00:00:09,596
+61. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_10,00"))
+
+17
+00:00:09,598 --> 00:00:10,028
+65. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00"))
+
+18
+00:00:10,030 --> 00:00:10,440
+69. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00"))
+
+19
+00:00:10,442 --> 00:00:10,862
+73. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoNoche"))
+
+20
+00:00:10,863 --> 00:00:11,264
+77. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de playa"))
+
+21
+00:00:11,266 --> 00:00:11,638
+81. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_30,00"))
+
+22
+00:00:11,639 --> 00:00:12,055
+85. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00"))
+
+23
+00:00:12,057 --> 00:00:12,448
+89. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00"))
+
+24
+00:00:12,450 --> 00:00:12,950
+93. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoPlaya"))
+
+25
+00:00:12,951 --> 00:00:13,351
+97. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_GafasDeHombre"))
+
+26
+00:00:13,352 --> 00:00:13,756
+101. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_90,00"))
+
+27
+00:00:13,757 --> 00:00:14,162
+105. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00"))
+
+28
+00:00:14,163 --> 00:00:14,553
+109. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00"))
+
+29
+00:00:14,554 --> 00:00:14,931
+113. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Total del carrito"))
+
+30
+00:00:14,932 --> 00:00:15,300
+117. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal"))
+
+31
+00:00:15,301 --> 00:00:15,709
+121. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_139,50"))
+
+32
+00:00:15,711 --> 00:00:16,095
+125. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TotalDeCarrito"))
+
+33
+00:00:16,097 --> 00:00:16,524
+129. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Envo"))
+
+34
+00:00:16,525 --> 00:00:16,940
+133. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/PrecioDeEnvio"))
+
+35
+00:00:16,941 --> 00:00:17,345
+137. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/label_OpcionesDeEnvio"))
+
+36
+00:00:17,346 --> 00:00:17,770
+141. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_CalcularEnvio"))
+
+37
+00:00:17,772 --> 00:00:18,199
+145. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Impuestos (estimado para Espaa)"))
+
+38
+00:00:18,201 --> 00:00:18,618
+149. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_0,00"))
+
+39
+00:00:18,619 --> 00:00:19,031
+153. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Total"))
+
+40
+00:00:19,034 --> 00:00:19,448
+157. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_142,50"))
+
+41
+00:00:19,450 --> 00:00:19,865
+161. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra"))
+

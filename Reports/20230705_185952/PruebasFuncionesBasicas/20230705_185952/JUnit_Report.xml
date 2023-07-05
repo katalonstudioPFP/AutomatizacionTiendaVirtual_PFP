@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PruebasFuncionesBasicas" time="127.245" tests="1" failures="0" errors="0">
+   <testsuite name="PruebasFuncionesBasicas" tests="1" failures="0" errors="0" time="127.245" skipped="0" timestamp="2023-07-05 18:59:58" hostname="aleja - 192.168.1.13" id="Test Suites/PruebasFuncionesBasicas">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aleja\\git\\backup\\AutomatizacionTiendaVirtual_PFP\\Reports\\20230705_185952\\PruebasFuncionesBasicas\\20230705_185952"/>
+         <property name="logFiles" value="C:\\Users\\aleja\\git\\backup\\AutomatizacionTiendaVirtual_PFP\\Reports\\20230705_185952\\PruebasFuncionesBasicas\\20230705_185952\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aleja - 192.168.1.13"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="4aeb362b119e316a7ec0c9149a2d84ce"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/FuncionesBasicas/Compra de un grupo de productos con descuentos con cliente registrado" time="126.838" classname="Test Cases/FuncionesBasicas/Compra de un grupo de productos con descuentos con cliente registrado" status="PASSED">
+         <system-out><![CDATA[2023-07-05 18:59:58 - [TEST_CASE][PASSED] - Test Cases/FuncionesBasicas/Compra de un grupo de productos con descuentos con cliente registrado: Test Cases/FuncionesBasicas/Compra de un grupo de productos con descuentos con cliente registrado
+
+2023-07-05 18:59:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ScriptsComunes/AccesoATienda"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ScriptsComunes/AccesoATienda' successfully
+
+2023-07-05 18:59:59 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/AccesoATienda: Test Cases/ScriptsComunes/AccesoATienda
+
+2023-07-05 18:59:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 19:00:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 19:00:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 19:00:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 19:00:02 - [TEST_STEP][PASSED] - navigateToUrl("https://pruebasqafenix.com/"): Navigate to 'https://pruebasqafenix.com/' successfully
+
+2023-07-05 19:00:04 - [MESSAGE][PASSED] - Navigate to 'https://pruebasqafenix.com/' successfully
+
+2023-07-05 19:00:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 19:00:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 19:00:04 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-07-05 19:00:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-07-05 19:00:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies' is clicked on
+
+2023-07-05 19:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies' is clicked on
+
+2023-07-05 19:00:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ScriptsComunes/AccesoATienda' successfully
+
+2023-07-05 19:00:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ScriptsComunes/BusquedaDeProductosEnDescuento"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento' successfully
+
+2023-07-05 19:00:09 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento: Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento
+
+2023-07-05 19:00:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/DesplegableCategorias"), "descuento-50", true): All options with value 'descuento-50' are selected in object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/DesplegableCategorias'  using regular expression
+
+2023-07-05 19:00:19 - [MESSAGE][PASSED] - All options with value 'descuento-50' are selected in object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/DesplegableCategorias'  using regular expression
+
+2023-07-05 19:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/BotonBuscar")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/BotonBuscar' is clicked on
+
+2023-07-05 19:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/BotonBuscar' is clicked on
+
+2023-07-05 19:00:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ScriptsComunes/BusquedaDeProductosEnDescuento' successfully
+
+2023-07-05 19:00:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ScriptsComunes/ComprobacionPaginaDeProductosConDescuento"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento' successfully
+
+2023-07-05 19:00:24 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento: Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento
+
+2023-07-05 19:00:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/span_Oferta")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/span_Oferta' is visible
+
+2023-07-05 19:00:25 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/span_Oferta' is visible
+
+2023-07-05 19:00:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Pantaln y camisa de hombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Pantaln y camisa de hombre' is visible
+
+2023-07-05 19:00:26 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Pantaln y camisa de hombre' is visible
+
+2023-07-05 19:00:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de noche")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de noche' is visible
+
+2023-07-05 19:00:26 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de noche' is visible
+
+2023-07-05 19:00:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de playa")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de playa' is visible
+
+2023-07-05 19:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Vestido de playa' is visible
+
+2023-07-05 19:00:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Gafas de hombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Gafas de hombre' is visible
+
+2023-07-05 19:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/h2_Gafas de hombre' is visible
+
+2023-07-05 19:00:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' successfully
+
+2023-07-05 19:00:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' successfully
+
+2023-07-05 19:00:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' is visible
+
+2023-07-05 19:00:28 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' is visible
+
+2023-07-05 19:00:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1' is visible
+
+2023-07-05 19:00:28 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1' is visible
+
+2023-07-05 19:00:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2' is visible
+
+2023-07-05 19:00:29 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2' is visible
+
+2023-07-05 19:00:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3' is visible
+
+2023-07-05 19:00:29 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3' is visible
+
+2023-07-05 19:00:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_VistaRapida")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_VistaRapida' is visible
+
+2023-07-05 19:00:30 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_VistaRapida' is visible
+
+2023-07-05 19:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' is clicked on
+
+2023-07-05 19:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito' is clicked on
+
+2023-07-05 19:00:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 19:00:33 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 19:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1' is clicked on
+
+2023-07-05 19:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1' is clicked on
+
+2023-07-05 19:00:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 19:00:35 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 19:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2' is clicked on
+
+2023-07-05 19:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2' is clicked on
+
+2023-07-05 19:00:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 19:00:37 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 19:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3' is clicked on
+
+2023-07-05 19:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Aadir al carrito_1_2_3' is clicked on
+
+2023-07-05 19:00:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 19:00:38 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is visible
+
+2023-07-05 19:00:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento' successfully
+
+2023-07-05 19:00:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ScriptsComunes/ComprobarCarritoVariosProductos"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos' successfully
+
+2023-07-05 19:00:38 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos: Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos
+
+2023-07-05 19:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is clicked on
+
+2023-07-05 19:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Has buscado -/a_Ver carrito' is clicked on
+
+2023-07-05 19:00:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Carrito"), "Carrito"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Carrito' are matched.
+
+2023-07-05 19:00:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Carrito' are matched.
+
+2023-07-05 19:00:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TienesTarjetaRegalo")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TienesTarjetaRegalo' is visible
+
+2023-07-05 19:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TienesTarjetaRegalo' is visible
+
+2023-07-05 19:00:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto' successfully
+
+2023-07-05 19:00:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto' successfully
+
+2023-07-05 19:00:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto' is visible
+
+2023-07-05 19:00:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Producto' is visible
+
+2023-07-05 19:00:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Precio")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Precio' is visible
+
+2023-07-05 19:00:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Precio' is visible
+
+2023-07-05 19:00:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Cantidad")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Cantidad' is visible
+
+2023-07-05 19:00:44 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Cantidad' is visible
+
+2023-07-05 19:00:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal' is visible
+
+2023-07-05 19:00:44 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal' is visible
+
+2023-07-05 19:00:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_' is visible
+
+2023-07-05 19:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_' is visible
+
+2023-07-05 19:00:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenGafas")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenGafas' is visible
+
+2023-07-05 19:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenGafas' is visible
+
+2023-07-05 19:00:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_PantalanyCamisaDeHombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_PantalanyCamisaDeHombre' is visible
+
+2023-07-05 19:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_PantalanyCamisaDeHombre' is visible
+
+2023-07-05 19:00:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_25,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_25,00' is visible
+
+2023-07-05 19:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_25,00' is visible
+
+2023-07-05 19:00:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_22,50")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_22,50' is visible
+
+2023-07-05 19:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_22,50' is visible
+
+2023-07-05 19:00:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenPantalonYCamisa")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenPantalonYCamisa' is visible
+
+2023-07-05 19:00:47 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenPantalonYCamisa' is visible
+
+2023-07-05 19:00:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de noche")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de noche' is visible
+
+2023-07-05 19:00:47 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de noche' is visible
+
+2023-07-05 19:00:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_10,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_10,00' is visible
+
+2023-07-05 19:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_10,00' is visible
+
+2023-07-05 19:00:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00' is visible
+
+2023-07-05 19:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00' is visible
+
+2023-07-05 19:00:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00' is visible
+
+2023-07-05 19:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_9,00' is visible
+
+2023-07-05 19:00:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoNoche")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoNoche' is visible
+
+2023-07-05 19:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoNoche' is visible
+
+2023-07-05 19:00:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de playa")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de playa' is visible
+
+2023-07-05 19:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_Vestido de playa' is visible
+
+2023-07-05 19:00:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_30,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_30,00' is visible
+
+2023-07-05 19:00:50 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_30,00' is visible
+
+2023-07-05 19:00:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00' is visible
+
+2023-07-05 19:00:50 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00' is visible
+
+2023-07-05 19:00:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00' is visible
+
+2023-07-05 19:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_27,00' is visible
+
+2023-07-05 19:00:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoPlaya")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoPlaya' is visible
+
+2023-07-05 19:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/ImagenVestidoPlaya' is visible
+
+2023-07-05 19:00:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_GafasDeHombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_GafasDeHombre' is visible
+
+2023-07-05 19:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_GafasDeHombre' is visible
+
+2023-07-05 19:00:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_90,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_90,00' is visible
+
+2023-07-05 19:00:52 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_90,00' is visible
+
+2023-07-05 19:00:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00' is visible
+
+2023-07-05 19:00:52 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00' is visible
+
+2023-07-05 19:00:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00' is visible
+
+2023-07-05 19:00:53 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/bdi_81,00' is visible
+
+2023-07-05 19:00:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Total del carrito")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Total del carrito' is visible
+
+2023-07-05 19:00:53 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/Cabecera_Total del carrito' is visible
+
+2023-07-05 19:00:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal' is visible
+
+2023-07-05 19:00:53 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Subtotal' is visible
+
+2023-07-05 19:00:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_139,50")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_139,50' is visible
+
+2023-07-05 19:00:54 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_139,50' is visible
+
+2023-07-05 19:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TotalDeCarrito")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TotalDeCarrito' is clicked on
+
+2023-07-05 19:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/div_TotalDeCarrito' is clicked on
+
+2023-07-05 19:00:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Envo")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Envo' is visible
+
+2023-07-05 19:00:55 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Envo' is visible
+
+2023-07-05 19:00:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/PrecioDeEnvio")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/PrecioDeEnvio' is visible
+
+2023-07-05 19:00:55 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/PrecioDeEnvio' is visible
+
+2023-07-05 19:00:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/label_OpcionesDeEnvio")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/label_OpcionesDeEnvio' is visible
+
+2023-07-05 19:00:56 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/label_OpcionesDeEnvio' is visible
+
+2023-07-05 19:00:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_CalcularEnvio")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_CalcularEnvio' is visible
+
+2023-07-05 19:00:56 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_CalcularEnvio' is visible
+
+2023-07-05 19:00:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Impuestos (estimado para Espaa)")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Impuestos (estimado para Espaa)' is visible
+
+2023-07-05 19:00:56 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Impuestos (estimado para Espaa)' is visible
+
+2023-07-05 19:00:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_0,00")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_0,00' is visible
+
+2023-07-05 19:00:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_0,00' is visible
+
+2023-07-05 19:00:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Total")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Total' is visible
+
+2023-07-05 19:00:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/th_Total' is visible
+
+2023-07-05 19:00:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_142,50")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_142,50' is visible
+
+2023-07-05 19:00:58 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/td_142,50' is visible
+
+2023-07-05 19:00:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra' is visible
+
+2023-07-05 19:00:58 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra' is visible
+
+2023-07-05 19:00:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ScriptsComunes/ComprobarCarritoVariosProductos' successfully
+
+2023-07-05 19:00:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ScriptsComunes/ComprobacionPaginaCheckout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ScriptsComunes/ComprobacionPaginaCheckout' successfully
+
+2023-07-05 19:00:58 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/ComprobacionPaginaCheckout: Test Cases/ScriptsComunes/ComprobacionPaginaCheckout
+
+2023-07-05 19:00:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra' is clicked on
+
+2023-07-05 19:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra' is clicked on
+
+2023-07-05 19:01:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder"), 1): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is present
+
+2023-07-05 19:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is present
+
+2023-07-05 19:01:03 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo' is right clicked on
+
+2023-07-05 19:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo' is right clicked on
+
+2023-07-05 19:01:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo"), 1): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo' is present
+
+2023-07-05 19:01:04 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo' is present
+
+2023-07-05 19:01:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_sala aqu"), "¡Úsala aquí!"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_sala aqu' are matched.
+
+2023-07-05 19:01:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_sala aqu' are matched.
+
+2023-07-05 19:01:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Detalles de facturacin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Detalles de facturacin' is visible
+
+2023-07-05 19:01:05 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Detalles de facturacin' is visible
+
+2023-07-05 19:01:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/SuscripcionBoletin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/SuscripcionBoletin' is visible
+
+2023-07-05 19:01:05 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/SuscripcionBoletin' is visible
+
+2023-07-05 19:01:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido"), 0): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' successfully
+
+2023-07-05 19:01:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' successfully
+
+2023-07-05 19:01:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Enviar a una direccin diferente")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Enviar a una direccin diferente' is visible
+
+2023-07-05 19:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Enviar a una direccin diferente' is visible
+
+2023-07-05 19:01:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre' successfully
+
+2023-07-05 19:01:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre' successfully
+
+2023-07-05 19:01:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre' is visible
+
+2023-07-05 19:01:07 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre' is visible
+
+2023-07-05 19:01:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Apellidos")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Apellidos' is visible
+
+2023-07-05 19:01:07 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Apellidos' is visible
+
+2023-07-05 19:01:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' is visible
+
+2023-07-05 19:01:07 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' is visible
+
+2023-07-05 19:01:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido' is visible
+
+2023-07-05 19:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido' is visible
+
+2023-07-05 19:01:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pas  Regin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pas  Regin' is visible
+
+2023-07-05 19:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pas  Regin' is visible
+
+2023-07-05 19:01:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais' is visible
+
+2023-07-05 19:01:09 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais' is visible
+
+2023-07-05 19:01:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de la calle")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de la calle' is visible
+
+2023-07-05 19:01:09 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de la calle' is visible
+
+2023-07-05 19:01:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion' is visible
+
+2023-07-05 19:01:09 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion' is visible
+
+2023-07-05 19:01:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' is visible
+
+2023-07-05 19:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' is visible
+
+2023-07-05 19:01:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Poblacin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Poblacin' is visible
+
+2023-07-05 19:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Poblacin' is visible
+
+2023-07-05 19:01:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad' is visible
+
+2023-07-05 19:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad' is visible
+
+2023-07-05 19:01:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Regin  Provincia")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Regin  Provincia' is visible
+
+2023-07-05 19:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Regin  Provincia' is visible
+
+2023-07-05 19:01:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Elige una opcin")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Elige una opcin' is visible
+
+2023-07-05 19:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Elige una opcin' is visible
+
+2023-07-05 19:01:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal' successfully
+
+2023-07-05 19:01:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal' successfully
+
+2023-07-05 19:01:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal' is visible
+
+2023-07-05 19:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal' is visible
+
+2023-07-05 19:01:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' is visible
+
+2023-07-05 19:01:13 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' is visible
+
+2023-07-05 19:01:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de correo electrnico")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de correo electrnico' is visible
+
+2023-07-05 19:01:13 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de correo electrnico' is visible
+
+2023-07-05 19:01:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email' is visible
+
+2023-07-05 19:01:14 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email' is visible
+
+2023-07-05 19:01:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Suscrbete a nuestro boletn")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Suscrbete a nuestro boletn' is visible
+
+2023-07-05 19:01:14 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Suscrbete a nuestro boletn' is visible
+
+2023-07-05 19:01:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido' is visible
+
+2023-07-05 19:01:15 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido' is visible
+
+2023-07-05 19:01:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Producto"), "Producto"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Producto' are matched.
+
+2023-07-05 19:01:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Producto' are matched.
+
+2023-07-05 19:01:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal"), "Subtotal"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal' are matched.
+
+2023-07-05 19:01:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal' are matched.
+
+2023-07-05 19:01:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido"), "Tu pedido"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido' are matched.
+
+2023-07-05 19:01:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido' are matched.
+
+2023-07-05 19:01:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal"), "Subtotal"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal' are matched.
+
+2023-07-05 19:01:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal' are matched.
+
+2023-07-05 19:01:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Envo"), "Envío"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Envo' are matched.
+
+2023-07-05 19:01:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Envo' are matched.
+
+2023-07-05 19:01:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Total"), "Total"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Total' are matched.
+
+2023-07-05 19:01:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Total' are matched.
+
+2023-07-05 19:01:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/td_139,50"), "139,50 €"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/td_139,50' are matched.
+
+2023-07-05 19:01:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/td_139,50' are matched.
+
+2023-07-05 19:01:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Precio fijo 3,00"), 2): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Precio fijo 3,00' is present
+
+2023-07-05 19:01:18 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Precio fijo 3,00' is present
+
+2023-07-05 19:01:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_0,00"), 2): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_0,00' is present
+
+2023-07-05 19:01:18 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_0,00' is present
+
+2023-07-05 19:01:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_142,50"), 2): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_142,50' is present
+
+2023-07-05 19:01:18 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_142,50' is present
+
+2023-07-05 19:01:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Transferencia bancaria directa"), "Transferencia bancaria directa"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Transferencia bancaria directa' are matched.
+
+2023-07-05 19:01:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Transferencia bancaria directa' are matched.
+
+2023-07-05 19:01:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pagos por cheque"), 2): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pagos por cheque' is present
+
+2023-07-05 19:01:19 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pagos por cheque' is present
+
+2023-07-05 19:01:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contra reembolso"), "Contra reembolso"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contra reembolso' are matched.
+
+2023-07-05 19:01:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contra reembolso' are matched.
+
+2023-07-05 19:01:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Marca aqu para recibir la invitacin de_4e7bcb")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Marca aqu para recibir la invitacin de_4e7bcb' is visible
+
+2023-07-05 19:01:20 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Marca aqu para recibir la invitacin de_4e7bcb' is visible
+
+2023-07-05 19:01:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1"), "He leído y estoy de acuerdo con los términos y condiciones de la web"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1' are matched.
+
+2023-07-05 19:01:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1' are matched.
+
+2023-07-05 19:01:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Acepto recibir ofertas, noticias y ot_c16676"), "Acepto recibir ofertas, noticias y otras recomendaciones sobre productos o servicios (opcional)"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Acepto recibir ofertas, noticias y ot_c16676' are matched.
+
+2023-07-05 19:01:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Acepto recibir ofertas, noticias y ot_c16676' are matched.
+
+2023-07-05 19:01:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is visible
+
+2023-07-05 19:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is visible
+
+2023-07-05 19:01:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' successfully
+
+2023-07-05 19:01:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' successfully
+
+2023-07-05 19:01:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ScriptsComunes/ComprobacionPaginaCheckout' successfully
+
+2023-07-05 19:01:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ScriptsComunes/LoginDesdeCheckout"), ["Usuario":"tejonloco0@gmail.com", "Password":"Isabela_2023_"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ScriptsComunes/LoginDesdeCheckout' successfully
+
+2023-07-05 19:01:22 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/LoginDesdeCheckout: Test Cases/ScriptsComunes/LoginDesdeCheckout
+
+2023-07-05 19:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is clicked on
+
+2023-07-05 19:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is clicked on
+
+2023-07-05 19:01:23 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-07-05 19:01:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-05 19:01:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico"), "Nombre de usuario o correo electrónico *"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico' are matched.
+
+2023-07-05 19:01:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico' are matched.
+
+2023-07-05 19:01:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea"), "Contraseña *"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea' are matched.
+
+2023-07-05 19:01:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea' are matched.
+
+2023-07-05 19:01:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario' is visible
+
+2023-07-05 19:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario' is visible
+
+2023-07-05 19:01:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password' is visible
+
+2023-07-05 19:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password' is visible
+
+2023-07-05 19:01:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is visible
+
+2023-07-05 19:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is visible
+
+2023-07-05 19:01:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame' is visible
+
+2023-07-05 19:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame' is visible
+
+2023-07-05 19:01:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea"), "¿Olvidaste la contraseña?"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea' are matched.
+
+2023-07-05 19:01:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea' are matched.
+
+2023-07-05 19:01:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario"), Usuario): Text 'tejonloco0@gmail.com' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario'
+
+2023-07-05 19:01:28 - [MESSAGE][PASSED] - Text 'tejonloco0@gmail.com' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario'
+
+2023-07-05 19:01:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password"), Password): Text 'Isabela_2023_' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password'
+
+2023-07-05 19:01:29 - [MESSAGE][PASSED] - Text 'Isabela_2023_' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password'
+
+2023-07-05 19:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is clicked on
+
+2023-07-05 19:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is clicked on
+
+2023-07-05 19:01:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ScriptsComunes/LoginDesdeCheckout' successfully
+
+2023-07-05 19:01:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ScriptsComunes/ComprobacionDatosDeEnvioDeCliente"), ["Nombre":"sonia", "Apellido":"sanchez", "Pais":"España", "Direccion":"calle doctor esquerdo 169", "Piso":"2 c", "Ciudad":"madrid", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente' successfully
+
+2023-07-05 19:01:38 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente: Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente
+
+2023-07-05 19:01:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' successfully
+
+2023-07-05 19:01:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' successfully
+
+2023-07-05 19:01:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre"), "value", Nombre, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' has attribute 'value' with value 'sonia'
+
+2023-07-05 19:01:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:41 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre' has attribute 'value' with value 'sonia'
+
+2023-07-05 19:01:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido"), "value", Apellido, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido' has attribute 'value' with value 'sanchez'
+
+2023-07-05 19:01:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:41 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido' has attribute 'value' with value 'sanchez'
+
+2023-07-05 19:01:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais"), "title", Pais, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais' has attribute 'title' with value 'España'
+
+2023-07-05 19:01:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais' has attribute 'title' with value 'España'
+
+2023-07-05 19:01:42 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion"), "value", Direccion, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion' has attribute 'value' with value 'calle doctor esquerdo 169'
+
+2023-07-05 19:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion' has attribute 'value' with value 'calle doctor esquerdo 169'
+
+2023-07-05 19:01:42 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso"), "value", Piso, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with value '2 c'
+
+2023-07-05 19:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso' has attribute 'value' with value '2 c'
+
+2023-07-05 19:01:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad"), "value", Ciudad, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad' has attribute 'value' with value 'madrid'
+
+2023-07-05 19:01:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad' has attribute 'value' with value 'madrid'
+
+2023-07-05 19:01:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Comunidad"), "title", Comunidad, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Comunidad' has attribute 'title' with value 'Madrid'
+
+2023-07-05 19:01:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Comunidad' has attribute 'title' with value 'Madrid'
+
+2023-07-05 19:01:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP"), 2): Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' successfully
+
+2023-07-05 19:01:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' successfully
+
+2023-07-05 19:01:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP"), "value", CP, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' has attribute 'value' with value '28007'
+
+2023-07-05 19:01:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:44 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP' has attribute 'value' with value '28007'
+
+2023-07-05 19:01:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email"), "value", Email, 0): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email' has attribute 'value' with value 'tejonloco0@gmail.com'
+
+2023-07-05 19:01:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-05 19:01:45 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email' has attribute 'value' with value 'tejonloco0@gmail.com'
+
+2023-07-05 19:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83' is clicked on
+
+2023-07-05 19:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83' is clicked on
+
+2023-07-05 19:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6' is clicked on
+
+2023-07-05 19:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6' is clicked on
+
+2023-07-05 19:01:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente' successfully
+
+2023-07-05 19:01:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso' successfully
+
+2023-07-05 19:01:48 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso: Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso
+
+2023-07-05 19:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is clicked on
+
+2023-07-05 19:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is clicked on
+
+2023-07-05 19:01:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra"), "Gracias por tu compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra' are matched.
+
+2023-07-05 19:02:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra' are matched.
+
+2023-07-05 19:02:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0"), "Te agradecemos la compra en esta tienda. Esperamos que compres mas veces en esta tienda por eso debajo de la imagen tienes un cupón descuento para que lo utilices en tu próxima compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0' are matched.
+
+2023-07-05 19:02:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0' are matched.
+
+2023-07-05 19:02:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76' is visible
+
+2023-07-05 19:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76' is visible
+
+2023-07-05 19:02:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281"), "Aquí tienes tu cupón con un descuento del 10% para tu próxima compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281' are matched.
+
+2023-07-05 19:02:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281' are matched.
+
+2023-07-05 19:02:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i' is visible
+
+2023-07-05 19:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i' is visible
+
+2023-07-05 19:02:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso' successfully
+
+2023-07-05 19:02:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-05 19:02:03 - [MESSAGE][PASSED] - Browser is closed
+
+2023-07-05 19:02:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/FuncionesBasicas/Compra de un grupo de productos con descuentos con cliente registrado' .
+
+2023-07-05 19:02:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/FuncionesBasicas/Compra de un grupo de productos con descuentos con cliente registrado' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-05 18:59:58 - [TEST_SUITE][PASSED] - PruebasFuncionesBasicas: Test Cases/FuncionesBasicas/Compra de un grupo de productos con descuentos con cliente registrado]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

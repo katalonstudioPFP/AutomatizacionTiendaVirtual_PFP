@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Camiseta para mujer</name>
+   <tag></tag>
+   <elementGuidId>e4c48a44-9043-4fc1-a12c-b7588aa7e41a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/div/div/div/form/table/tbody/tr/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.product-name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>56541d49-c98f-41dc-b16d-28b6a896ea3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-name</value>
+      <webElementGuid>cd65d195-e640-4a57-9c72-3e2f9a12a0c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-title</name>
+      <type>Main</type>
+      <value>Producto</value>
+      <webElementGuid>4a752116-ecb3-4442-94fb-47f6b484161f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+						Camiseta para mujer						</value>
+      <webElementGuid>fd5f4ee6-60c7-450a-b6c9-290ffcde3234</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-384 page type-page status-publish hentry&quot;]/div[@class=&quot;main-content-page single-content&quot;]/div[@class=&quot;single-entry-summary&quot;]/div[@class=&quot;woocommerce&quot;]/form[@class=&quot;woocommerce-cart-form&quot;]/table[@class=&quot;shop_table shop_table_responsive cart woocommerce-cart-form__contents&quot;]/tbody[1]/tr[@class=&quot;woocommerce-cart-form__cart-item cart_item&quot;]/td[@class=&quot;product-name&quot;]</value>
+      <webElementGuid>1d88ada8-babb-400d-8d4d-0f85db835e30</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/div/div/div/form/table/tbody/tr/td[3]</value>
+      <webElementGuid>b48c6d03-b28a-47a1-8814-4c5b33f7b8c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::td[2]</value>
+      <webElementGuid>dc7efd74-5376-4c26-b13c-18d52af34fc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subtotal'])[1]/following::td[3]</value>
+      <webElementGuid>309a025e-8826-49fa-860a-1b840340758a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[1]/preceding::td[1]</value>
+      <webElementGuid>e4b54d97-7740-4007-96a5-5823fced2a77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]</value>
+      <webElementGuid>77920f06-3542-4016-94bd-04925955b728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+						Camiseta para mujer						' or . = '
+						Camiseta para mujer						')]</value>
+      <webElementGuid>8b0f6633-80e8-47e5-9c42-443f316a0126</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

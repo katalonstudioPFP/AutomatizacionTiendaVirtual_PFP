@@ -1,0 +1,4 @@
+1
+00:00:00,387 --> 00:00:00,810
+1. click(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1"))
+

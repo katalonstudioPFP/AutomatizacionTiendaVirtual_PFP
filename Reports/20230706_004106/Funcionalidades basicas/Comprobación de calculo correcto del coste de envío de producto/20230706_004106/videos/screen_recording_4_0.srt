@@ -1,0 +1,68 @@
+1
+00:00:00,704 --> 00:00:01,090
+1. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Envio"), "Envío")
+
+2
+00:00:01,092 --> 00:00:01,486
+5. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/label_Precio fijo 3,00"), "Precio fijo: 3,00 €")
+
+3
+00:00:01,488 --> 00:00:01,896
+9. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/TextoDeOpcionesDeEnvio"), "Las opciones de envío se actualizarán durante el pago.")
+
+4
+00:00:01,900 --> 00:00:02,378
+13. verifyElementVisible(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/a_CalcularCosteEnvio"))
+
+5
+00:00:02,380 --> 00:00:02,802
+17. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Impuestos (estimado para España)"), "Impuestos (estimado para España)")
+
+6
+00:00:02,804 --> 00:00:03,200
+21. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/th_Total"), "Total")
+
+7
+00:00:03,203 --> 00:00:03,635
+25. scrollToElement(findTestObject("Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/CiudadDelEnvio"), 2)
+
+8
+00:00:03,637 --> 00:00:04,190
+29. click(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/a_CalcularCosteEnvio"))
+
+9
+00:00:04,192 --> 00:00:04,751
+33. verifyElementVisible(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/span_Espaa"))
+
+10
+00:00:04,752 --> 00:00:05,181
+37. verifyElementVisible(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/CiudadDelEnvio"))
+
+11
+00:00:05,182 --> 00:00:05,597
+41. verifyElementVisible(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/CPDelEnvio"))
+
+12
+00:00:05,598 --> 00:00:05,968
+45. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/BotonActualizar"), "Actualizar")
+
+13
+00:00:05,971 --> 00:00:06,735
+49. setText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/CiudadDelEnvio"), Provincia)
+
+14
+00:00:06,737 --> 00:00:07,517
+53. setText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/CPDelEnvio"), CP)
+
+15
+00:00:07,519 --> 00:00:09,254
+57. click(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/BotonActualizar"))
+
+16
+00:00:09,256 --> 00:00:12,050
+61. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/CosteEnvio"), CosteEnvio)
+
+17
+00:00:12,051 --> 00:00:12,403
+65. verifyElementText(findTestObject("Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Carrito -/strong_28009 madrid, Madrid"), CP + " " + Provincia)
+

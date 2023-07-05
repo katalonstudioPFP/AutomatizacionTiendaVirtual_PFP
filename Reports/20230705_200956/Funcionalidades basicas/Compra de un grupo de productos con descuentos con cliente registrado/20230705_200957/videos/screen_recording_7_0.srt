@@ -1,0 +1,52 @@
+1
+00:00:00,706 --> 00:00:01,074
+1. scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre"), 2)
+
+2
+00:00:01,076 --> 00:00:01,941
+5. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre"), "value", Nombre, 0)
+
+3
+00:00:01,942 --> 00:00:02,800
+9. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido"), "value", Apellido, 0)
+
+4
+00:00:02,804 --> 00:00:03,223
+13. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais"), "title", Pais, 0)
+
+5
+00:00:03,224 --> 00:00:04,023
+17. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion"), "value", Direccion, 0)
+
+6
+00:00:04,024 --> 00:00:04,830
+21. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso"), "value", Piso, 0)
+
+7
+00:00:04,830 --> 00:00:05,635
+25. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad"), "value", Ciudad, 0)
+
+8
+00:00:05,637 --> 00:00:06,477
+29. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Comunidad"), "title", Comunidad, 0)
+
+9
+00:00:06,479 --> 00:00:06,890
+33. scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP"), 2)
+
+10
+00:00:06,890 --> 00:00:07,621
+37. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP"), "value", CP, 0)
+
+11
+00:00:07,622 --> 00:00:08,313
+41. verifyElementAttributeValue(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email"), "value", Email, 0)
+
+12
+00:00:08,315 --> 00:00:08,760
+45. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Transferencia bancaria directa_paymen_cf3a83"))
+
+13
+00:00:08,761 --> 00:00:10,438
+49. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/input_Contctenos en email para preguntas re_7d39a6"))
+

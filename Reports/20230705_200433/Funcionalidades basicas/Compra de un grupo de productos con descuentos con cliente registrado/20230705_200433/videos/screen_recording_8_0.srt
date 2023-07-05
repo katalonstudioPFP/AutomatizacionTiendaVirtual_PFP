@@ -1,0 +1,24 @@
+1
+00:00:00,414 --> 00:00:00,920
+1. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido"))
+
+2
+00:00:00,922 --> 00:00:03,379
+5. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra"), "Gracias por tu compra")
+
+3
+00:00:03,382 --> 00:00:35,087
+9. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0"), "Te agradecemos la compra en esta tienda. Esperamos que compres mas veces en esta tienda por eso debajo de la imagen tienes un cupón descuento para que lo utilices en tu próxima compra")
+
+4
+00:00:35,089 --> 00:01:06,813
+13. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76"))
+
+5
+00:01:06,814 --> 00:01:38,565
+17. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281"), "Aquí tienes tu cupón con un descuento del 10% para tu próxima compra")
+
+6
+00:01:38,567 --> 00:02:10,110
+21. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i"))
+

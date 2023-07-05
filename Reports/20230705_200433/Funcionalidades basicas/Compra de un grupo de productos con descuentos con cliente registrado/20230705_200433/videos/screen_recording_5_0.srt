@@ -1,0 +1,192 @@
+1
+00:00:00,505 --> 00:00:03,728
+1. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Carrito -/a_FinalizarCompra"))
+
+2
+00:00:03,729 --> 00:00:04,801
+5. verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder"), 1)
+
+3
+00:00:04,802 --> 00:00:05,354
+9. rightClick(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo"))
+
+4
+00:00:05,356 --> 00:00:05,754
+13. verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para introducir tu cdigo"), 1)
+
+5
+00:00:05,755 --> 00:00:06,135
+17. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_sala aqu"), "¡Úsala aquí!")
+
+6
+00:00:06,137 --> 00:00:06,542
+21. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Detalles de facturacin"))
+
+7
+00:00:06,543 --> 00:00:06,956
+25. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/SuscripcionBoletin"))
+
+8
+00:00:06,959 --> 00:00:07,334
+29. scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido"), 0)
+
+9
+00:00:07,337 --> 00:00:07,760
+33. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Enviar a una direccin diferente"))
+
+10
+00:00:07,761 --> 00:00:08,175
+37. scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre"), 2)
+
+11
+00:00:08,175 --> 00:00:08,583
+41. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre"))
+
+12
+00:00:08,584 --> 00:00:08,968
+45. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Apellidos"))
+
+13
+00:00:08,970 --> 00:00:09,389
+49. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Nombre"))
+
+14
+00:00:09,391 --> 00:00:09,823
+53. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Apellido"))
+
+15
+00:00:09,825 --> 00:00:10,272
+57. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pas  Regin"))
+
+16
+00:00:10,273 --> 00:00:10,709
+61. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Pais"))
+
+17
+00:00:10,710 --> 00:00:11,140
+65. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de la calle"))
+
+18
+00:00:11,141 --> 00:00:11,503
+69. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Direccion"))
+
+19
+00:00:11,504 --> 00:00:11,928
+73. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Piso"))
+
+20
+00:00:11,930 --> 00:00:12,321
+77. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Poblacin"))
+
+21
+00:00:12,323 --> 00:00:12,717
+81. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Ciudad"))
+
+22
+00:00:12,718 --> 00:00:13,117
+85. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Regin  Provincia"))
+
+23
+00:00:13,118 --> 00:00:13,532
+89. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Elige una opcin"))
+
+24
+00:00:13,533 --> 00:00:13,915
+93. scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal"), 2)
+
+25
+00:00:13,916 --> 00:00:14,284
+97. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Cdigo postal"))
+
+26
+00:00:14,285 --> 00:00:14,685
+101. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/CP"))
+
+27
+00:00:14,687 --> 00:00:15,098
+105. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Direccin de correo electrnico"))
+
+28
+00:00:15,099 --> 00:00:15,514
+109. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Email"))
+
+29
+00:00:15,516 --> 00:00:15,905
+113. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Suscrbete a nuestro boletn"))
+
+30
+00:00:15,907 --> 00:00:16,331
+117. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido"))
+
+31
+00:00:16,332 --> 00:00:16,740
+121. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Producto"), "Producto")
+
+32
+00:00:16,741 --> 00:00:17,114
+125. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal"), "Subtotal")
+
+33
+00:00:17,115 --> 00:00:17,493
+129. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/h3_Tu pedido"), "Tu pedido")
+
+34
+00:00:17,494 --> 00:00:17,871
+133. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Subtotal"), "Subtotal")
+
+35
+00:00:17,872 --> 00:00:18,244
+137. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Envo"), "Envío")
+
+36
+00:00:18,246 --> 00:00:18,634
+141. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/th_Total"), "Total")
+
+37
+00:00:18,635 --> 00:00:19,014
+145. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/td_139,50"), "139,50 €")
+
+38
+00:00:19,014 --> 00:00:19,403
+149. verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Precio fijo 3,00"), 2)
+
+39
+00:00:19,406 --> 00:00:19,810
+153. verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_0,00"), 2)
+
+40
+00:00:19,812 --> 00:00:20,180
+157. verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/bdi_142,50"), 2)
+
+41
+00:00:20,180 --> 00:00:20,554
+161. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Transferencia bancaria directa"), "Transferencia bancaria directa")
+
+42
+00:00:20,555 --> 00:00:20,916
+165. verifyElementPresent(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Pagos por cheque"), 2)
+
+43
+00:00:20,918 --> 00:00:21,307
+169. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contra reembolso"), "Contra reembolso")
+
+44
+00:00:21,309 --> 00:00:21,714
+173. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_Marca aqu para recibir la invitacin de_4e7bcb"))
+
+45
+00:00:21,717 --> 00:00:22,119
+177. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1"), "He leído y estoy de acuerdo con los términos y condiciones de la web")
+
+46
+00:00:22,121 --> 00:00:22,498
+181. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Acepto recibir ofertas, noticias y ot_c16676"), "Acepto recibir ofertas, noticias y otras recomendaciones sobre productos o servicios (opcional)")
+
+47
+00:00:22,500 --> 00:00:22,905
+185. verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido"))
+
+48
+00:00:22,906 --> 00:00:23,316
+189. scrollToElement(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder"), 2)
+

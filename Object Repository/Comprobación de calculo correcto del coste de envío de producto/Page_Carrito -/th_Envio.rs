@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Envio</name>
+   <tag></tag>
+   <elementGuidId>60e4f8c9-032e-4df7-ae7b-f7e2e9fb6aef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/div/div/div/div[4]/div/table/tbody/tr[2]/th</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.woocommerce-shipping-totals.shipping > th</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>6aaa2ae4-fcdb-40ed-9892-b6d58b4168f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Envío</value>
+      <webElementGuid>6bafd417-77ba-4fb1-89b9-c353fa8123fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-384 page type-page status-publish hentry&quot;]/div[@class=&quot;main-content-page single-content&quot;]/div[@class=&quot;single-entry-summary&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;cart-collaterals&quot;]/div[@class=&quot;cart_totals&quot;]/table[@class=&quot;shop_table shop_table_responsive&quot;]/tbody[1]/tr[@class=&quot;woocommerce-shipping-totals shipping&quot;]/th[1]</value>
+      <webElementGuid>f82046a4-7e06-41f5-938f-0ede9b3759f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/div/div/div/div[4]/div/table/tbody/tr[2]/th</value>
+      <webElementGuid>b2bde5a3-55de-44d8-a524-9030f1694891</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[4]/following::th[1]</value>
+      <webElementGuid>7f58e0fb-98c6-4036-bca0-b439855a8fef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subtotal'])[2]/following::th[1]</value>
+      <webElementGuid>06f911d3-5cb1-48ec-bada-011ef233b6f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[5]/preceding::th[1]</value>
+      <webElementGuid>674a6332-121c-4c7e-a278-d457b45b6729</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Envío']/parent::*</value>
+      <webElementGuid>b42d04dd-2ee5-4604-9ac0-1068cdcfed78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/th</value>
+      <webElementGuid>ac925c3b-5917-416d-bb2c-9d2ff87d33eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Envío' or . = 'Envío')]</value>
+      <webElementGuid>91ed1b2b-5d34-4059-8f51-9fbba1216b02</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

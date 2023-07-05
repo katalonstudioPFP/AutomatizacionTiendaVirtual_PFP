@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Compra de un producto con cupon descuento" time="76.938" tests="9" failures="0" errors="0">
+   <testsuite name="Compra de un producto con cupon descuento" tests="9" failures="0" errors="0" time="76.938" skipped="0" timestamp="2023-07-05 20:50:24" hostname="aleja - 192.168.1.13" id="Test Suites/Funcionalidades basicas/Compra de un producto con cupon descuento">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aleja\\git\\backup\\AutomatizacionTiendaVirtual_PFP\\Reports\\20230705_205017\\Funcionalidades basicas\\Compra de un producto con cupon descuento\\20230705_205018"/>
+         <property name="logFiles" value="C:\\Users\\aleja\\git\\backup\\AutomatizacionTiendaVirtual_PFP\\Reports\\20230705_205017\\Funcionalidades basicas\\Compra de un producto con cupon descuento\\20230705_205018\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aleja - 192.168.1.13"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="c72f9ce4944ba3d5a8147fa9b8fa14d2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ScriptsComunes/AccesoATienda" time="9.346" classname="Test Cases/ScriptsComunes/AccesoATienda" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:50:24 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/AccesoATienda: Test Cases/ScriptsComunes/AccesoATienda
+
+2023-07-05 20:50:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-05 20:50:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-05 20:50:25 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCert', 'true']
+
+2023-07-05 20:50:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-05 20:50:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-05 20:50:28 - [TEST_STEP][PASSED] - navigateToUrl("https://pruebasqafenix.com/"): Navigate to 'https://pruebasqafenix.com/' successfully
+
+2023-07-05 20:50:30 - [MESSAGE][PASSED] - Navigate to 'https://pruebasqafenix.com/' successfully
+
+2023-07-05 20:50:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-05 20:50:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-05 20:50:30 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-07-05 20:50:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-07-05 20:50:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies' is clicked on
+
+2023-07-05 20:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Inicio -/AceptarCookies' is clicked on
+
+2023-07-05 20:50:33 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/AccesoATienda' .
+
+2023-07-05 20:50:33 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/AccesoATienda' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/SeleccionarProducto" time="13.23" classname="Test Cases/ScriptsComunes/SeleccionarProducto" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:50:33 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/SeleccionarProducto: Test Cases/ScriptsComunes/SeleccionarProducto
+
+2023-07-05 20:50:34 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un producto con cupon descuento/Page_Inicio -/a_Tienda")): Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Inicio -/a_Tienda' is clicked on
+
+2023-07-05 20:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Inicio -/a_Tienda' is clicked on
+
+2023-07-05 20:50:35 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un producto con cupon descuento/Page_Tienda -/h2_Gafas de hombre")): Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Tienda -/h2_Gafas de hombre' is clicked on
+
+2023-07-05 20:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Tienda -/h2_Gafas de hombre' is clicked on
+
+2023-07-05 20:50:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/BotonAñadirACarrito")): Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/BotonAñadirACarrito' is clicked on
+
+2023-07-05 20:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/BotonAñadirACarrito' is clicked on
+
+2023-07-05 20:50:41 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/IconoCarrito")): Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/IconoCarrito' is hovered
+
+2023-07-05 20:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/IconoCarrito' is hovered
+
+2023-07-05 20:50:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Gafas de hombre"), NombreProducto): Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Gafas de hombre' are matched.
+
+2023-07-05 20:50:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Gafas de hombre' are matched.
+
+2023-07-05 20:50:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/strong_Subtotal"), "Subtotal:"): Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/strong_Subtotal' are matched.
+
+2023-07-05 20:50:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/strong_Subtotal' are matched.
+
+2023-07-05 20:50:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Ver carrito")): Object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Ver carrito' is visible
+
+2023-07-05 20:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Ver carrito' is visible
+
+2023-07-05 20:50:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra")): Object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra' is visible
+
+2023-07-05 20:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra' is visible
+
+2023-07-05 20:50:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/div_PrecioTotalCarrito"), "81,00 €"): Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/div_PrecioTotalCarrito' are matched.
+
+2023-07-05 20:50:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/div_PrecioTotalCarrito' are matched.
+
+2023-07-05 20:50:47 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/SeleccionarProducto' .
+
+2023-07-05 20:50:47 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/SeleccionarProducto' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/IrCheckOut" time="5.158" classname="Test Cases/ScriptsComunes/IrCheckOut" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:50:47 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/IrCheckOut: Test Cases/ScriptsComunes/IrCheckOut
+
+2023-07-05 20:50:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra")): Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra' is clicked on
+
+2023-07-05 20:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra' is clicked on
+
+2023-07-05 20:50:52 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/IrCheckOut' .
+
+2023-07-05 20:50:52 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/IrCheckOut' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/LoginDesdeCheckout" time="18.634" classname="Test Cases/ScriptsComunes/LoginDesdeCheckout" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:50:52 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/LoginDesdeCheckout: Test Cases/ScriptsComunes/LoginDesdeCheckout
+
+2023-07-05 20:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is clicked on
+
+2023-07-05 20:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Haz clic aqu para acceder' is clicked on
+
+2023-07-05 20:50:53 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-07-05 20:50:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-05 20:50:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico"), "Nombre de usuario o correo electrónico *"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico' are matched.
+
+2023-07-05 20:50:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Nombre de usuario o correo electrnico' are matched.
+
+2023-07-05 20:50:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea"), "Contraseña *"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea' are matched.
+
+2023-07-05 20:50:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Contrasea' are matched.
+
+2023-07-05 20:50:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario' is visible
+
+2023-07-05 20:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario' is visible
+
+2023-07-05 20:50:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password' is visible
+
+2023-07-05 20:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password' is visible
+
+2023-07-05 20:50:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is visible
+
+2023-07-05 20:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is visible
+
+2023-07-05 20:50:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame' is visible
+
+2023-07-05 20:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/label_Recurdame' is visible
+
+2023-07-05 20:50:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea"), "¿Olvidaste la contraseña?"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea' are matched.
+
+2023-07-05 20:50:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/a_Olvidaste la contrasea' are matched.
+
+2023-07-05 20:50:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario"), Usuario): Text 'tejonloco0@gmail.com' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario'
+
+2023-07-05 20:50:59 - [MESSAGE][PASSED] - Text 'tejonloco0@gmail.com' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Usuario'
+
+2023-07-05 20:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password"), Password): Text 'Isabela_2023_' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password'
+
+2023-07-05 20:51:00 - [MESSAGE][PASSED] - Text 'Isabela_2023_' is set on object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/Password'
+
+2023-07-05 20:51:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is clicked on
+
+2023-07-05 20:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonAcceder' is clicked on
+
+2023-07-05 20:51:10 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/LoginDesdeCheckout' .
+
+2023-07-05 20:51:10 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/LoginDesdeCheckout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/UtilizarCupon" time="10.463" classname="Test Cases/ScriptsComunes/UtilizarCupon" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:51:10 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/UtilizarCupon: Test Cases/ScriptsComunes/UtilizarCupon
+
+2023-07-05 20:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo")): Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo' is clicked on
+
+2023-07-05 20:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo' is clicked on
+
+2023-07-05 20:51:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/div_Tienes un cupon Haz clic aqu para introducirlo")): Object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/div_Tienes un cupon Haz clic aqu para introducirlo' is visible
+
+2023-07-05 20:51:12 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/div_Tienes un cupon Haz clic aqu para introducirlo' is visible
+
+2023-07-05 20:51:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo"), "Haz clic aquí para introducir tu código"): Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo' are matched.
+
+2023-07-05 20:51:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/a_Haz clic aqui para introducir tu codigo' are matched.
+
+2023-07-05 20:51:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/p_Si tienes un cdigo de cupon, por favor, aplicalo"), "Si tienes un código de cupón, por favor, aplícalo abajo."): Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/p_Si tienes un cdigo de cupon, por favor, aplicalo' are matched.
+
+2023-07-05 20:51:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/p_Si tienes un cdigo de cupon, por favor, aplicalo' are matched.
+
+2023-07-05 20:51:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon")): Object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon' is visible
+
+2023-07-05 20:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon' is visible
+
+2023-07-05 20:51:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon")): Object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon' is visible
+
+2023-07-05 20:51:14 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon' is visible
+
+2023-07-05 20:51:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon"), "Aplicar cupón"): Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon' are matched.
+
+2023-07-05 20:51:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon' are matched.
+
+2023-07-05 20:51:14 - [TEST_STEP][PASSED] - setText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon"), Cupon): Text 'Y87ZY9VC' is set on object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon'
+
+2023-07-05 20:51:15 - [MESSAGE][PASSED] - Text 'Y87ZY9VC' is set on object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/input_CodigoCupon'
+
+2023-07-05 20:51:15 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon")): Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon' is clicked on
+
+2023-07-05 20:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/ButonAplicarCupon' is clicked on
+
+2023-07-05 20:51:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/div_El codigo de cupon se aplica correctamente"), "El código de cupón se ha aplicado correctamente."): Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/div_El codigo de cupon se aplica correctamente' are matched.
+
+2023-07-05 20:51:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/div_El codigo de cupon se aplica correctamente' are matched.
+
+2023-07-05 20:51:21 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/UtilizarCupon' .
+
+2023-07-05 20:51:21 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/UtilizarCupon' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/AceptarCondicionesTienda" time="2.893" classname="Test Cases/ScriptsComunes/AceptarCondicionesTienda" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:51:21 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/AceptarCondicionesTienda: Test Cases/ScriptsComunes/AceptarCondicionesTienda
+
+2023-07-05 20:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1' is clicked on
+
+2023-07-05 20:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/span_He ledo y estoy de acuerdo con los trm_1b4be1' is clicked on
+
+2023-07-05 20:51:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/AceptarCondicionesTienda' .
+
+2023-07-05 20:51:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/AceptarCondicionesTienda' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/PagoContrareembolso" time="2.914" classname="Test Cases/ScriptsComunes/PagoContrareembolso" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:51:24 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/PagoContrareembolso: Test Cases/ScriptsComunes/PagoContrareembolso
+
+2023-07-05 20:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/PagoContrareembolso")): Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/PagoContrareembolso' is clicked on
+
+2023-07-05 20:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/PagoContrareembolso' is clicked on
+
+2023-07-05 20:51:27 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/PagoContrareembolso' .
+
+2023-07-05 20:51:27 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/PagoContrareembolso' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso" time="10.207" classname="Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:51:27 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso: Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso
+
+2023-07-05 20:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido")): Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is clicked on
+
+2023-07-05 20:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido' is clicked on
+
+2023-07-05 20:51:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra"), "Gracias por tu compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra' are matched.
+
+2023-07-05 20:51:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra' are matched.
+
+2023-07-05 20:51:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0"), "Te agradecemos la compra en esta tienda. Esperamos que compres mas veces en esta tienda por eso debajo de la imagen tienes un cupón descuento para que lo utilices en tu próxima compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0' are matched.
+
+2023-07-05 20:51:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Te agradecemos la compra en esta tienda._5dacf0' are matched.
+
+2023-07-05 20:51:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76' is visible
+
+2023-07-05 20:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/img_Gracias por tu compra_attachment-medium_a68d76' is visible
+
+2023-07-05 20:51:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281"), "Aquí tienes tu cupón con un descuento del 10% para tu próxima compra"): Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281' are matched.
+
+2023-07-05 20:51:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281' are matched.
+
+2023-07-05 20:51:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i")): Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i' is visible
+
+2023-07-05 20:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i' is visible
+
+2023-07-05 20:51:37 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso' .
+
+2023-07-05 20:51:37 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScriptsComunes/CerrarNavegador" time="3.704" classname="Test Cases/ScriptsComunes/CerrarNavegador" status="PASSED">
+         <system-out><![CDATA[2023-07-05 20:51:37 - [TEST_CASE][PASSED] - Test Cases/ScriptsComunes/CerrarNavegador: Test Cases/ScriptsComunes/CerrarNavegador
+
+2023-07-05 20:51:37 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2023-07-05 20:51:37 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2023-07-05 20:51:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-05 20:51:39 - [MESSAGE][PASSED] - Browser is closed
+
+2023-07-05 20:51:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/ScriptsComunes/CerrarNavegador' .
+
+2023-07-05 20:51:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/ScriptsComunes/CerrarNavegador' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-05 20:50:24 - [TEST_SUITE][PASSED] - Compra de un producto con cupon descuento: Test Cases/ScriptsComunes/CerrarNavegador]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/AccesoATienda'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Inicio -/a_TiendaNEW'))
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/SeleccionaProducto2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Tienda -/h2_Camiseta para mujer'))
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarCarritoProducto'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Camiseta para mujer -/button_Aadir al carrito'))
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarCalculoCosteDeEnvio'), [('Provincia') : 'madrid', ('CP') : '28009'
-        , ('CosteEnvio') : '4,60 €'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Camiseta para mujer -/div_Ver carrito Camiseta para mujer se ha a_30c79a'))
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/CerrarNavegador'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Comprobación de calculo correcto del coste de envío de producto/Page_Camiseta para mujer -/a_Ver carrito'))
 

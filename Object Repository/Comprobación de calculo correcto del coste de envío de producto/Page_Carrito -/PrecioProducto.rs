@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PrecioProducto</name>
+   <tag></tag>
+   <elementGuidId>ded3938b-65a3-4b3d-8a77-9736eafb851d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='site-content']/div/div/article/div/div/div/div/form/table/tbody/tr/td[4]/div/ins/span/bdi</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ins > span.woocommerce-Price-amount.amount > bdi</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>bdi</value>
+      <webElementGuid>0cdb5f16-0c44-42dd-829f-74b12f6396d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>18,90 €</value>
+      <webElementGuid>bb66dff3-5934-48bc-86ac-11c66633c329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-384 page type-page status-publish hentry&quot;]/div[@class=&quot;main-content-page single-content&quot;]/div[@class=&quot;single-entry-summary&quot;]/div[@class=&quot;woocommerce&quot;]/form[@class=&quot;woocommerce-cart-form&quot;]/table[@class=&quot;shop_table shop_table_responsive cart woocommerce-cart-form__contents&quot;]/tbody[1]/tr[@class=&quot;woocommerce-cart-form__cart-item cart_item&quot;]/td[@class=&quot;product-price&quot;]/div[@class=&quot;awdr_cart_strikeout_line&quot;]/ins[1]/span[@class=&quot;woocommerce-Price-amount amount&quot;]/bdi[1]</value>
+      <webElementGuid>d574c11d-3433-4892-93fa-d45d13b59baf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='site-content']/div/div/article/div/div/div/div/form/table/tbody/tr/td[4]/div/ins/span/bdi</value>
+      <webElementGuid>7ad8e304-586d-456a-b449-f7bfaf421f92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[1]/following::bdi[1]</value>
+      <webElementGuid>7aa88cc7-0905-434a-9802-d83812c9be9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Camiseta para mujer'])[1]/following::bdi[2]</value>
+      <webElementGuid>e9602165-996d-43e6-aecd-849ec3a3e08b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Camiseta para mujer cantidad'])[1]/preceding::bdi[1]</value>
+      <webElementGuid>a1befedf-7d51-453a-abf5-aac735d72fad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ins/span/bdi</value>
+      <webElementGuid>7422d0cd-2719-4db2-97a2-25c1e757343e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//bdi[(text() = '18,90 €' or . = '18,90 €')]</value>
+      <webElementGuid>a5146d34-1889-49be-a634-b50e148aeaf7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

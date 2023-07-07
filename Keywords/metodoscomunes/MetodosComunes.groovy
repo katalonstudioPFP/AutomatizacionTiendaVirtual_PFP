@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -22,16 +21,24 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-
+import com.kms.katalon.core.testobject.SelectorMethod
 import internal.GlobalVariable
+import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 public class MetodosComunes {
 
 	@Keyword
-	public void ClickAProducto (String NombreProducto) {
+	def clickProducto(String Nombre) {
+		//h2[contains(text(),'Pantalón y camisa de hombre')]
+		try {//*[@class = 'woocommerce-loop-product__title' and (text() = 'Vestido de playa' or . = 'Vestido de playa')]
+			TestObject NombreProducto = new TestObject('NombreProducto')
+			NombreProducto.setSelectorValue(SelectorMethod.XPATH,"//*[@class = 'woocommerce-loop-product__title' and (text() = '"+Nombre+"' or . = '"+Nombre +"')]")
+			NombreProducto.setSelectorMethod(SelectorMethod.XPATH)
+			WebElement producto = WebUI.findWebElement(NombreProducto);
+			producto.click()
+		} catch (WebElementNotFoundException e) {
+			e.println("NO SE ENCONTRO EL PRODUCTO")
 
-		WebDriver driver = new ChromeDriver()
-		WebElement Enlace = driver.findElement(By.linkText(NombreProducto))
-		Enlace.click()
+		}
 	}
 }

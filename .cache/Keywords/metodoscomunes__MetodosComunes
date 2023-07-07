@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "C6D0D12D568A2EEF169923CA77E69F4B",
+  "keywordFileContentHash": "1C1E5BFF97A07196CEB08B71224B73D8",
   "keywordClasses": [
     {
       "name": "metodoscomunes.MetodosComunes",
       "keywordMethods": [
         {
-          "name": "ClickAProducto",
+          "name": "clickProducto",
           "parameters": [
             {
-              "name": "NombreProducto",
+              "name": "Nombre",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

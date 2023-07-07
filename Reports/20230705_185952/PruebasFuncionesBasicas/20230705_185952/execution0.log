@@ -7481,10 +7481,7 @@ AccesoATienda.run(AccesoATienda:26)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2023-07-05T19:21:17</date>
   <millis>1688577677751</millis>
@@ -8565,3 +8562,4 @@ AccesoATienda.run(AccesoATienda:26)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>

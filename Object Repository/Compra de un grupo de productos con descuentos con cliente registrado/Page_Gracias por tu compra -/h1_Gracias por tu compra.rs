@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='site-content']/div/div/article/div/header/h1</value>
+         <value>//h1[(text() = 'Gracias por tu compra' or . = 'Gracias por tu compra')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>faa05a41-26da-47f7-ac1c-72a803fa9f4a</webElementGuid>
+      <webElementGuid>633fb464-5a57-4e9a-900c-ff629394c8e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>single-title</value>
-      <webElementGuid>0d0c9d43-e9d4-44a9-995e-5d69a2fcf779</webElementGuid>
+      <webElementGuid>f70c9917-5a8b-4d0f-a713-e5561e88afd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Gracias por tu compra</value>
-      <webElementGuid>8d7d153b-319b-4030-a6af-077e61980560</webElementGuid>
+      <webElementGuid>98546aec-d511-4481-8e3b-3c4756535a23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-841 page type-page status-publish hentry&quot;]/header[@class=&quot;single-head page-head no-thumbnail&quot;]/h1[@class=&quot;single-title&quot;]</value>
-      <webElementGuid>38a20707-925a-423e-b080-97e3a9289ad1</webElementGuid>
+      <webElementGuid>753bc032-e26e-48fa-8077-21fa0b3e425c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='site-content']/div/div/article/div/header/h1</value>
-      <webElementGuid>b20a3273-1c7a-4908-918f-2601e1275f73</webElementGuid>
+      <webElementGuid>b4aca3c8-780e-45c5-b528-1fe9e870ab04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gracias por tu compra'])[1]/following::h1[1]</value>
-      <webElementGuid>dcc77772-aa41-4c1f-bebd-ced3f3794900</webElementGuid>
+      <webElementGuid>3ae0cbb6-39a9-4b66-842f-b5769943a5fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Portada'])[1]/following::h1[1]</value>
-      <webElementGuid>8c99a055-bf3d-4a34-bc0f-4f988e3eba0b</webElementGuid>
+      <webElementGuid>4ddfbbe8-436c-40c9-b0ff-fbca8bb465a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aquí tienes tu cupón con un descuento del 10% para tu próxima compra'])[1]/preceding::h1[1]</value>
-      <webElementGuid>8e311fc8-628c-4d61-892c-943ceda92495</webElementGuid>
+      <webElementGuid>9fb9eea9-8afa-45f8-a308-cdc55973934d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart discount'])[1]/preceding::h1[1]</value>
-      <webElementGuid>25925a10-0d7d-432b-9dd3-f262dad95b4d</webElementGuid>
+      <webElementGuid>0b55c4bd-84a8-46fe-8b79-27c0318821d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>2be0ed00-efa1-4bf7-a38d-db6923c98444</webElementGuid>
+      <webElementGuid>58bead53-2c63-4504-a650-a3c095c8b8c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Gracias por tu compra' or . = 'Gracias por tu compra')]</value>
-      <webElementGuid>a0174551-176b-4d19-bde9-070d2a7a26e9</webElementGuid>
+      <webElementGuid>da1a0aa8-b458-474d-b69b-cd1ee390e907</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

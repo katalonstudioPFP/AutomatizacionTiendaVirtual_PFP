@@ -17,6 +17,72 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/FuncionesBasicas/Compra de un grupo de productos con descuentos con cliente registrado</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f8646af-db5b-4917-b8b9-d21300746f83</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ada5c7bf-4a27-4d16-911f-05c09792e5c0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f10a3ce9-b920-4863-93b9-13d33fc7b9a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b85bc2e5-8dcd-491b-837c-4ad4174ff156</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6920d2b7-10b4-47e1-bffc-05ebf68a5612</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e82c5a7-decb-4f20-93eb-5a68c5eae675</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c5e0af8d-5dd0-4244-8dce-df23e74f7e61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f0cb3c6a-dcfe-484c-8c61-2e4930cc2391</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77c41af0-529f-4bab-b6a4-f825e2121756</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d95bcfa-68f8-4842-b653-c73d15196d2e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>076823ee-c92b-4e7f-bff1-becb50f37b24</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d468a0b7-71ab-4701-8652-aa640c170e62</guid>

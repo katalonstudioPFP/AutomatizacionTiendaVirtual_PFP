@@ -3,9 +3,9 @@
    <description></description>
    <name>Ejecucion3NavegadoresTodosLosScripts</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
+   <delayBetweenInstances>8</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <maxConcurrentInstances>3</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

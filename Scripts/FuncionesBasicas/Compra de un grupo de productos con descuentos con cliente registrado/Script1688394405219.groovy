@@ -17,24 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/AccesoATienda'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/AccesoATienda'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/BusquedaDeProductosEnDescuento'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/BusquedaDeProductosEnDescuento'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionPaginaDeProductosConDescuento'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/ComprobacionPaginaDeProductosConDescuento'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobarCarritoVariosProductos'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/ComprobarCarritoVariosProductos'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionPaginaCheckout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/ComprobacionPaginaCheckout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/LoginDesdeCheckout'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : 'Isabela_2023_'], 
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/LoginDesdeCheckout'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : 'Isabela_2023_'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ComprobacionDatosDeEnvioDeCliente'), [('Nombre') : 'sonia', ('Apellido') : 'sanchez'
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/ComprobacionDatosDeEnvioDeCliente'), [('Nombre') : 'sonia', ('Apellido') : 'sanchez'
         , ('Pais') : 'España', ('Direccion') : 'calle doctor esquerdo 169', ('Piso') : '2 c', ('Ciudad') : 'madrid', ('Comunidad') : 'Madrid'
         , ('CP') : '28007', ('Email') : 'tejonloco0@gmail.com'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/RealizarPedidoYComprobacionPedidoExitoso'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/CerrarNavegador'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/CerrarNavegador'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

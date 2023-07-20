@@ -25,6 +25,7 @@ import com.kms.katalon.core.testobject.SelectorMethod
 import internal.GlobalVariable
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
+
 public class MetodosComunes {
 
 	@Keyword

@@ -4,4 +4,44 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PmwBZYkBtpEvQVbdnv2V'</initValue>
+      <name>WORKSPACE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kTUHZYkBqX6zjtlqyFde'</initValue>
+      <name>PROJECT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'F21IZYkBtpEvQVbdjH_b'</initValue>
+      <name>SCENARIO_LOAD_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ns3wbokBGp11p7ygPSLq'</initValue>
+      <name>TEMPLATE_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dae6ab3e-5c9a-4ee8-a99e-1d808060e9e6'</initValue>
+      <name>API_KEY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>BENCH_REPORT_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>BENCH_RESULT_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ZoGbdIkB0YJ_yWrrL7K_'</initValue>
+      <name>SCENARIO_STRESS_ID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -15,14 +15,20 @@
       <guid>38cdaa97-22c8-447c-b74d-fb38fed45f55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/AccesoATienda</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/AccesoATienda</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>19322904-17a6-4ed1-ba4f-d9f057904898</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>60c01399-d938-4d91-9325-c51410415d6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/SeleccionarProducto</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/SeleccionarProducto</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -35,14 +41,14 @@
       <guid>ea6bbd3e-aed8-488b-98bd-e96f0aeb10d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/IrCheckOut</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/IrCheckOut</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0c8709e9-0c7f-43d7-8ec9-1eef9376200b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/LoginDesdeCheckout</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/LoginDesdeCheckout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ddf5318c-7617-4141-99a9-ea13d5935338</id>
@@ -70,7 +76,7 @@
       <guid>4c2b8f4c-304c-4105-baa1-1c7c72c0f628</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/UtilizarCupon</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/UtilizarCupon</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1c64992a-e49c-4fb7-9daa-0da8ddd29ca4</id>
@@ -92,28 +98,28 @@
       <guid>044e80b9-d2a8-44f5-bf4b-27a8afb58dfa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/AceptarCondicionesTienda</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/AceptarCondicionesTienda</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4a23374f-4c85-4ad9-8be6-560db74a0338</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/PagoContrareembolso</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/PagoContrareembolso</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>26f68c34-dc9f-4410-b315-8cb5f368c92e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/RealizarPedidoYComprobacionPedidoExitoso</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>50ebef02-6983-4432-a388-45276c75a6ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/CerrarNavegador</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/CerrarNavegador</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

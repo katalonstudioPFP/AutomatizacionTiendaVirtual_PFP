@@ -15,14 +15,20 @@
       <guid>4c1df130-91da-4c3d-a755-9edd87c74628</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/AccesoATienda</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/AccesoATienda</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>19322904-17a6-4ed1-ba4f-d9f057904898</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>af8043ab-2bbe-4456-9386-bc75638fab19</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/Loguearse</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/Loguearse</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cc7c46cb-3f37-4fea-be41-2cb305276747</id>
@@ -50,7 +56,7 @@
       <guid>ac3614ea-227d-4c05-aa61-81844cce983b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/ComprobarComponentesDeMiCuenta</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/ComprobarComponentesDeMiCuenta</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5d9433a6-0f3e-4393-b240-06ad8b0f4fb9</id>
@@ -72,7 +78,7 @@
       <guid>b664bddd-171f-42d8-9f45-19c4f7dff84c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/DarseDeBajaBoletin_Y_CambiarNombreVisible</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/DarseDeBajaBoletin_Y_CambiarNombreVisible</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>904a560a-44e8-4d2a-acd7-4ec0f5a37f1e</id>
@@ -94,14 +100,14 @@
       <guid>1085866a-9229-42b7-ad8a-9195144645ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/ComprobarCuponesCliente</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/ComprobarCuponesCliente</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dfcc7ab2-4ac9-4c44-a456-ead0fbda91f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/CerrarSesion</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/CerrarSesion</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_UsuarioLogueado</name>
+   <tag></tag>
+   <elementGuidId>f691a71e-fb5f-45bc-b984-70d12fb91a13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='page-header']/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.model-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f872dcf4-e9c0-463e-90d9-5ab0ac08631d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/user/admin</value>
+      <webElementGuid>a8f069cf-cb89-4c9a-b883-fccb02461b4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>model-link</value>
+      <webElementGuid>6b883c07-5267-420a-a9c4-1ef6dbfe2fa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>alejandro canosa</value>
+      <webElementGuid>b71c4884-7804-4d21-a2de-7bc9f251654b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-header&quot;)/div[@class=&quot;login page-header__hyperlinks&quot;]/a[@class=&quot;model-link&quot;]</value>
+      <webElementGuid>4f8e5d32-44c6-4ad3-a00f-31952c279d08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='page-header']/div[3]/a</value>
+      <webElementGuid>dd36e4f3-d454-4486-a695-52f8c45d9f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenkins'])[1]/following::a[3]</value>
+      <webElementGuid>fb98a42c-6efc-4d7e-b555-4ded4c25f7b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to content'])[1]/following::a[5]</value>
+      <webElementGuid>69de996e-391e-4784-ad6c-d98db3333a83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desconectar'])[1]/preceding::a[1]</value>
+      <webElementGuid>f49e5a37-ab9e-40bd-908b-f59582e4390d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/user/admin')]</value>
+      <webElementGuid>9c0f4768-848c-4543-a44e-45cf89d398d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a</value>
+      <webElementGuid>63158611-0974-49b9-b9cb-7a0f197a938f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/user/admin' and (text() = 'alejandro canosa' or . = 'alejandro canosa')]</value>
+      <webElementGuid>dfb26985-1269-4067-b015-11a750c8a9c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

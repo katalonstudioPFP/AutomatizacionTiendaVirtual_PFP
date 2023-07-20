@@ -1,0 +1,50 @@
+{
+  "keywordFileContentHash": "F931CEB4D65BA1459BD43AE58876B2C8",
+  "keywordClasses": [
+    {
+      "name": "analisisdeseguridad.AnalisisdeSeguridadOAWSPZAP",
+      "keywordMethods": [
+        {
+          "name": "ConfigurarNavegadorFirefox",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ConfigurarNavegadorChroome",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ConfigurarProxy",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "VolverProxyAEstadoInicial",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "GenerarInformeDeSeguridad",
+          "parameters": [
+            {
+              "name": "NombreInforme",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

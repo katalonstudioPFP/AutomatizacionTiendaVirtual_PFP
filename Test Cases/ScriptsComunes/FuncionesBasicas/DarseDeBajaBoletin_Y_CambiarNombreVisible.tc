@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DarseDeBajaBoletin_Y_CambiarNombreVisible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21d3482a-a1f2-4e58-bfa2-79fe9a8b6328</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa1e672f-35fe-476d-9011-a29802490d6e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sonia'</defaultValue>
+      <description></description>
+      <id>aa1e672f-35fe-476d-9011-a29802490d6e</id>
+      <masked>false</masked>
+      <name>NombreVisible</name>
+   </variable>
+</TestCaseEntity>

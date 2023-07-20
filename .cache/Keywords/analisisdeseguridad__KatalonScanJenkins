@@ -1,0 +1,20 @@
+{
+  "keywordFileContentHash": "5EB8AABEA7C2D78BB11DC07CFF988204",
+  "keywordClasses": [
+    {
+      "name": "analisisdeseguridad.KatalonScanJenkins",
+      "keywordMethods": []
+    },
+    {
+      "name": "analisisdeseguridad.SeleniumScan",
+      "keywordMethods": [
+        {
+          "name": "ConfigurarNavegador",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

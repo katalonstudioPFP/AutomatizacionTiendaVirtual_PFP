@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Siguiente",
+      "brokenLocator": "//a[contains(text(),\u0027Siguiente\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027site-content\u0027]/div/div/article/div/div/div/div/div/div[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Modificación de datos de la cuenta con cliente registrado/Page_Mi Cuenta -/a_Siguiente_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/div_El codigo de cupon se aplica correctamente",
+      "brokenLocator": "//div[(text() \u003d \u0027\n\t\tEl código de cupón se ha aplicado correctamente.\t\u0027 or . \u003d \u0027\n\t\tEl código de cupón se ha aplicado correctamente.\t\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027site-content\u0027]/div/div/article/div/div/div/div/div/div/div[2]/div/div/div/div/div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Compra de un producto con cupon descuento/Page_Checkout -/div_El codigo de cupon se aplica correctamente_idRelative.png"
+    }
+  ]
 }

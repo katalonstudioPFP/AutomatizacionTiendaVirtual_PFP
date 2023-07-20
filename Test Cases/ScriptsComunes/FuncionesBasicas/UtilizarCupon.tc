@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UtilizarCupon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c5cf2bc-b6a0-4a81-ae89-083345c11c18</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3d15992-ce8f-412d-b2f1-34770a38a9d8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Y87ZY9VC'</defaultValue>
+      <description></description>
+      <id>c3d15992-ce8f-412d-b2f1-34770a38a9d8</id>
+      <masked>false</masked>
+      <name>Cupon</name>
+   </variable>
+</TestCaseEntity>

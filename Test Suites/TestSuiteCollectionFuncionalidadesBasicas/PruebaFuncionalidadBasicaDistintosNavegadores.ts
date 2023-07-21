@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>FuncionalidadBasicasDistintosNavegadores</name>
+   <name>PruebaFuncionalidadBasicaDistintosNavegadores</name>
    <tag></tag>
    <delayBetweenInstances>9</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>

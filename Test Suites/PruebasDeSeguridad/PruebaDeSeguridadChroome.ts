@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>PruebasDeSeguridad</name>
+   <name>PruebaDeSeguridadChroome</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>08757b25-f92e-49a1-b91a-cd2ae6be82c1</testSuiteGuid>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ce24c5ed-ea23-46fc-8163-cf2748ef1cf6</testSuiteGuid>
    <testCaseLink>
-      <guid>10a9591c-f360-48be-b455-93359560e0e3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PruebaDeSeguridad/PruebaDeSeguridadLoginSobreFirefox</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fab8b939-b30b-4143-9bb0-913036e29277</guid>
+      <guid>e952ee30-6e2d-454f-bcba-ec72881913e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/PruebaDeSeguridad/PruebaDeSeguriddaLoginSobreChrome</testCaseId>

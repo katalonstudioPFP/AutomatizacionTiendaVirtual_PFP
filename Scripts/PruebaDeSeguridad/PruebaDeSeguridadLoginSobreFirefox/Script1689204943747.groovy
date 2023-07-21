@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/Loguearse'), [(
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/CerrarSesion'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-CustomKeywords.'analisisdeseguridad.AnalisisdeSeguridadOAWSPZAP.GenerarInformeDeSeguridad'('prueba5')
+CustomKeywords.'analisisdeseguridad.AnalisisdeSeguridadOAWSPZAP.GenerarInformeDeSeguridad'('InformeConFirefox')
 
 CustomKeywords.'analisisdeseguridad.AnalisisdeSeguridadOAWSPZAP.VolverProxyAEstadoInicial'()
 

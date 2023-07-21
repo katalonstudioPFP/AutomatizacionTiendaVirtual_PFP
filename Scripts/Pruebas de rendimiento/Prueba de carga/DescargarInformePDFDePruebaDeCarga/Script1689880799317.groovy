@@ -24,7 +24,7 @@ println(GlobalVariable.BENCH_REPORT_ID)
 println(GlobalVariable.API_KEY)
 
 //Ejecutamos el siguiente comando en consola,NECESITAMOS DESCARGAR ESE ARCHIVO DE API DE OCTOPERF
-ConsoleCommandBuilder.create("chmod +x download-report.sh && ./download-report.sh  " + "B35FdIkB0YJ_yWrroguf" +"  "+GlobalVariable.API_KEY)
+ConsoleCommandBuilder.create("chmod +x download-report.sh && ./download-report.sh " + GlobalVariable.BENCH_REPORT_ID +" "+GlobalVariable.API_KEY)
 .workingDir(RunConfiguration.getProjectDir())
 .redirectError()
 .execSync()

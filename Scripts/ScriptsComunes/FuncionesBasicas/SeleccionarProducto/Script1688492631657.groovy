@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Compra de un producto con cupon descuento/Page_Inicio -/a_Tienda'))
 
-WebUI.click(findTestObject('Compra de un producto con cupon descuento/Page_Tienda -/h2_Gafas de hombre'))
+WebUI.click(findTestObject('Compra de un producto con cupon descuento/Page_Gafas de hombre -/img_Gafas de hombre'))
 
 WebUI.click(findTestObject('Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/BotonAñadirACarrito'))
 
 WebUI.mouseOver(findTestObject('Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/IconoCarrito'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Gafas de hombre'), 
+WebUI.verifyElementText(findTestObject('Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Gafas de hombre'), 
     NombreProducto)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/strong_Subtotal'), 

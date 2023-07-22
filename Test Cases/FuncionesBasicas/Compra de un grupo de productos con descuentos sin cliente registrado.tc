@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Compra de un grupo de productos con descuentos sin cliente registrado</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>602a7002-40fe-4bf3-bed1-c0f4a386caea</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Comparar 2 productos de hombre como usuario no logueado</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6dcdff9a-bbd1-4b14-95a4-a3cdd0323d6c</testCaseGuid>
-</TestCaseEntity>

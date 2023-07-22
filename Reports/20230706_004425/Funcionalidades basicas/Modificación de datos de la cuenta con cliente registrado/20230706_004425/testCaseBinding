@@ -1,6 +1,0 @@
-{"testCaseName":"Test Cases/ScriptsComunes/AccesoATienda","testCaseId":"Test Cases/ScriptsComunes/AccesoATienda","iterationVariableName":""}
-{"testCaseName":"Test Cases/ScriptsComunes/Loguearse","testCaseId":"Test Cases/ScriptsComunes/Loguearse","iterationVariableName":"","bindedValues":{"Usuario":"\u0027tejonloco0@gmail.com\u0027","Password":"\u0027Isabela_2023_\u0027"}}
-{"testCaseName":"Test Cases/ScriptsComunes/ComprobarComponentesDeMiCuenta","testCaseId":"Test Cases/ScriptsComunes/ComprobarComponentesDeMiCuenta","iterationVariableName":"","bindedValues":{"NombreVisible":"\u0027Sonia\u0027"}}
-{"testCaseName":"Test Cases/ScriptsComunes/DarseDeBajaBoletin_Y_CambiarNombreVisible","testCaseId":"Test Cases/ScriptsComunes/DarseDeBajaBoletin_Y_CambiarNombreVisible","iterationVariableName":"","bindedValues":{"NombreVisible":"\u0027Sonia\u0027"}}
-{"testCaseName":"Test Cases/ScriptsComunes/ComprobarCuponesCliente","testCaseId":"Test Cases/ScriptsComunes/ComprobarCuponesCliente","iterationVariableName":""}
-{"testCaseName":"Test Cases/ScriptsComunes/CerrarSesion","testCaseId":"Test Cases/ScriptsComunes/CerrarSesion","iterationVariableName":""}

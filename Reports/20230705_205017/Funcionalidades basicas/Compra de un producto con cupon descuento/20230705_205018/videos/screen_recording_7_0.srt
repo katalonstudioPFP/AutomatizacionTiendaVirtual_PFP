@@ -1,4 +1,0 @@
-1
-00:00:00,425 --> 00:00:00,833
-1. click(findTestObject("Compra de un producto con cupon descuento/Page_Checkout -/PagoContrareembolso"))
-

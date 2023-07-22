@@ -1,8 +1,0 @@
-1
-00:00:00,451 --> 00:00:00,936
-1. click(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Checkout -/BotonRealizarPedido"))
-
-2
-00:00:00,939 --> 00:00:03,205
-5. verifyElementText(findTestObject("Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h1_Gracias por tu compra"), "Gracias por tu compra")
-

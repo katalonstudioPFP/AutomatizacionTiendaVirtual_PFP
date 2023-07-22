@@ -8,10 +8,13 @@ repositories {
 }
 
 dependencies {
-
-	compile "org.seleniumhq.selenium:selenium-java:3.141.59"
-	compile "org.zaproxy:zap-clientapi:1.8.0"
-	compile "org.zaproxy:zap:2.9.0"
-	testCompile "junit:junit:4.13"
-
+  // sample dependencies
+  // rest-assured
+  // compile 'io.rest-assured:rest-assured:3.2.0'
+  // JsonPath
+  // compile 'io.rest-assured:json-path:3.2.0'
+  // XmlPath
+  // compile 'io.rest-assured:json-path:3.2.0'
+  // JSON Schema Validation
+  // compile 'io.rest-assured:json-schema-validator:3.2.0'
 }

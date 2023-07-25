@@ -4,7 +4,7 @@
    <name>Pruebas de rendimiento</name>
    <tag></tag>
    <delayBetweenInstances>16</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>2</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>

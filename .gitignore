@@ -1,6 +1,7 @@
-/.bin/
-/.Libs/
+/bin/
+/Libs/
 /.settings/
 /.classpath
-.svn/
-/.Reports/*/*
+/.svn/
+Reports/
+settings*

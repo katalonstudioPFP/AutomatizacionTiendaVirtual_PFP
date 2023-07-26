@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Compra de un producto con cupon descuento</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c23d87c7-4ab2-48d5-a2fd-73a08a04a005</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4afae3da-7f6c-4b7e-8d88-ef7a9d645eda</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42f348a7-e81b-44a5-a3e2-b59bc0eac70d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c8c0fb8-90ef-4a95-bcba-d81ac313e668</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62306a1c-8a18-4731-b61f-2720ab336f6f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Gafas de hombre'</defaultValue>
+      <description></description>
+      <id>4afae3da-7f6c-4b7e-8d88-ef7a9d645eda</id>
+      <masked>false</masked>
+      <name>NombreProducto</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y87ZY9VC'</defaultValue>
+      <description></description>
+      <id>42f348a7-e81b-44a5-a3e2-b59bc0eac70d</id>
+      <masked>false</masked>
+      <name>Cupon</name>
+   </variable>
+   <variable>
+      <defaultValue>'tejonloco0@gmail.com'</defaultValue>
+      <description></description>
+      <id>5c8c0fb8-90ef-4a95-bcba-d81ac313e668</id>
+      <masked>false</masked>
+      <name>Usuario</name>
+   </variable>
+   <variable>
+      <defaultValue>'Isabela_2023_'</defaultValue>
+      <description></description>
+      <id>62306a1c-8a18-4731-b61f-2720ab336f6f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

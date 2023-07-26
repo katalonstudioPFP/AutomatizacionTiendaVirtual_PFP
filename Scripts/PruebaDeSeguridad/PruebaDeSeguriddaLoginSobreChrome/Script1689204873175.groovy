@@ -21,12 +21,12 @@ CustomKeywords.'analisisdeseguridad.AnalisisdeSeguridadOAWSPZAP.ConfigurarProxy'
 
 CustomKeywords.'analisisdeseguridad.AnalisisdeSeguridadOAWSPZAP.ConfigurarNavegadorChroome'()
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/AccesoATienda'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/AccesoATienda'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/Loguearse'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : 'Isabela_2023_'], 
+WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Loguearse'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : 'Isabela_2023_'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/FuncionesBasicas/CerrarSesion'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/CerrarSesion'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'analisisdeseguridad.AnalisisdeSeguridadOAWSPZAP.GenerarInformeDeSeguridad'('InformeConChrome')
 

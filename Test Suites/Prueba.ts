@@ -15,7 +15,7 @@
       <guid>1b3145c0-e404-4b1e-8998-ca2aaadebffb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FuncionesBasicas/Modificación de datos de la cuenta con cliente registrado</testCaseId>
+      <testCaseId>Test Cases/PruebasFuncionales/Modificación de datos de la cuenta con cliente registrado</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

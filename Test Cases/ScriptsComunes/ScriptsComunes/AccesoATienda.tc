@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccesoATienda</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74c214bf-1a84-44bb-8418-80687dbe8c04</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19322904-17a6-4ed1-ba4f-d9f057904898</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'localhost:8080'</defaultValue>
+      <description></description>
+      <id>19322904-17a6-4ed1-ba4f-d9f057904898</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

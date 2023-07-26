@@ -15,7 +15,7 @@
       <guid>f6db6388-e30b-4c24-b957-6982cc787df1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/AccesoATienda</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/AccesoATienda</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,21 +28,21 @@
       <guid>5ff39292-9034-460c-8053-1eaa6413f6d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/SeleccionaProducto2</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/SeleccionaProducto2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>37b1a6dd-9a0b-45bc-af8f-b75760d9eca6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/ComprobarCarritoProducto</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/ComprobarCarritoProducto</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9707b9ab-e594-429c-8878-81ffc445e2da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/ComprobarCalculoCosteDeEnvio</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/ComprobarCalculoCosteDeEnvio</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>20a4d73c-5baf-4cf6-8041-6e2ee63c10fe</id>
@@ -76,7 +76,7 @@
       <guid>f56eb0ac-20fc-49d3-ac83-a0641bed98f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/CerrarNavegador</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/CerrarNavegador</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

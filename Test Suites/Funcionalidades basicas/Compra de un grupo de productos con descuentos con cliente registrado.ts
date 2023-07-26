@@ -15,7 +15,7 @@
       <guid>2e8ae906-bdd7-4316-9065-d3a581ba5639</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/AccesoATienda</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/AccesoATienda</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,35 +28,35 @@
       <guid>0fb2703c-2b42-4aba-8669-987c90f87b12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/BusquedaDeProductosEnDescuento</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/BusquedaDeProductosEnDescuento</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>62f3e477-fd65-46c5-828f-45d416ad73e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/ComprobacionPaginaDeProductosConDescuento</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/ComprobacionPaginaDeProductosConDescuento</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9056d164-fa1f-4cfd-939d-c0398ebdb5c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/ComprobarCarritoVariosProductos</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/ComprobarCarritoVariosProductos</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5264032a-7dbf-4902-a485-7a2a4ee785a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/ComprobacionPaginaCheckout</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/ComprobacionPaginaCheckout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1c1d6ab9-13fe-4639-9d91-1323f41db881</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/LoginDesdeCheckout</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/LoginDesdeCheckout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f8cdfd90-a7dd-4866-b706-a12d27700d3e</id>
@@ -84,7 +84,7 @@
       <guid>063fb6ef-367d-4ace-a5f3-68d1ef0d91b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/ComprobacionDatosDeEnvioDeCliente</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/ComprobacionDatosDeEnvioDeCliente</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4324db04-bd90-4d55-8f9e-66deb54d8416</id>
@@ -154,7 +154,7 @@
       <guid>aa83583e-ea0c-421f-93e7-2dba2d2a2270</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScriptsComunes/FuncionesBasicas/RealizarPedidoYComprobacionPedidoExitoso</testCaseId>
+      <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/RealizarPedidoYComprobacionPedidoExitoso</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

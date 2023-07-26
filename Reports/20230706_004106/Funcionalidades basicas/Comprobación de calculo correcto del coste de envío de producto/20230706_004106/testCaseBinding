@@ -1,5 +1,0 @@
-{"testCaseName":"Test Cases/ScriptsComunes/AccesoATienda","testCaseId":"Test Cases/ScriptsComunes/AccesoATienda","iterationVariableName":""}
-{"testCaseName":"Test Cases/ScriptsComunes/SeleccionaProducto2","testCaseId":"Test Cases/ScriptsComunes/SeleccionaProducto2","iterationVariableName":""}
-{"testCaseName":"Test Cases/ScriptsComunes/ComprobarCarritoProducto","testCaseId":"Test Cases/ScriptsComunes/ComprobarCarritoProducto","iterationVariableName":""}
-{"testCaseName":"Test Cases/ScriptsComunes/ComprobarCalculoCosteDeEnvio","testCaseId":"Test Cases/ScriptsComunes/ComprobarCalculoCosteDeEnvio","iterationVariableName":"","bindedValues":{"CosteEnvio":"\u00274,60 \\u20AC\u0027","CP":"\u002728007\u0027","Provincia":"\u0027madrid\u0027"}}
-{"testCaseName":"Test Cases/ScriptsComunes/CerrarNavegador","testCaseId":"Test Cases/ScriptsComunes/CerrarNavegador","iterationVariableName":""}

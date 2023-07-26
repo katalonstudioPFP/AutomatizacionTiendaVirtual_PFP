@@ -1,4 +1,0 @@
-1
-00:00:00,476 --> 00:00:03,095
-1. click(findTestObject("Object Repository/Compra de un producto con cupon descuento/Page_Gafas de hombre -/a_Finalizar compra"))
-
